@@ -201,7 +201,7 @@
             li.mb-4.d-flex.d-flex
               i.fas.fa-paper-plane.colr_2
               | Las empresas.
-        p.mb-0 Partiendo de las categorías antes mencionadas, se hace necesario identificar cuáles son las ventajas que tiene cada una de ellas cuando se diseña la zonificación como estrategia comercial.
+        
     
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-up").bgr_5
       div(titulo="Ventajas de la zonificación para los clientes")
@@ -351,7 +351,7 @@
         .jumbotron-1.p-4(data-aos="zoom-in-down")    
           .row.justify-content-center.align-items-center
             .col-lg-8
-              p.text-center.mb-4 Ahora bien, este proceso puede ser realizado por un software especializado en el campo, como, por ejemplo:
+              p.text-center.mb-4 Ahora bien, este proceso puede ser realizado por un <em>software</em> especializado en el campo, como, por ejemplo:
             .row.justify-content-center.align-items-center
               .col-lg-3
                 .jumbotron-2.p-3.mb-3
@@ -387,7 +387,7 @@
 
     p.mb-3 Estas son algunas herramientas gratuitas de georreferenciación que se pueden invocar desde Python, JavaScript, Kartograph, Excel y otros. 
 
-    p.mb-5 Otras alternativas más ágiles se encuentran en internet, por ejemplo: con solo saber el nombre de la empresa o la dirección del cliente en el buscador de Google, por otro lado, las múltiples apps para smartphones también facilitan la georreferenciación gracias a las coordenadas o aplicaciones determinadas del celular permitiendo una visualización geoespacial.
+    p.mb-5 Otras alternativas más ágiles se encuentran en internet, por ejemplo: con solo saber el nombre de la empresa o la dirección del cliente en el buscador de Google, por otro lado, las múltiples <em>apps</em> para <em>smartphones</em> también facilitan la georreferenciación gracias a las coordenadas o aplicaciones determinadas del celular permitiendo una visualización geoespacial.
 
 
     .row.justify-content-center.align-items-center.mb-3

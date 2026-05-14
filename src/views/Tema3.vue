@@ -334,15 +334,11 @@
 
         p.mb-3 La finalidad de los reportes es que la información obtenida pueda ser accesible, compartida y útil para todas las personas de la empresa, de modo que sirva como punto de partida para determinar el rumbo, las decisiones o estrategias a seguir. Para esto, es necesario que sean <b> claros, concisos, fáciles de entender;</b> pero sobre todo útiles y precisos.
 
-        p.mb-0 Para realizar un reporte es necesario que se incluyan las siguientes partes:. 
+        p.mb-0 Para realizar un reporte es necesario que se incluyan las siguientes partes:
 
       .col-lg-6(data-aos="fade-left") 
         img.mt-3(src='@/assets/curso/images/tema3/img_19.png')
 
-    .row.align-items-center.justify-content-center.mb-5
-      .col-lg-4
-        h3.text-center Reportes 
-        p.text-center Partes que deben tener los reportes
 
     .row.justify-content-center.mb-5
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
@@ -361,7 +357,7 @@
               img(src="@/assets/curso/images/tema3/fl_2.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Introducción
-            p.mb-0 Explica de forma breve el tema y la forma en que se abordará el report
+            p.mb-0 Explica de forma breve el tema y la forma en que se abordará el reporte.
     
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").tarjeta
@@ -387,11 +383,12 @@
     .row.justify-content-center.p-5
       .col-lg-12
         .titulo-sexto.color-acento-contenido
-          p <b>Figura 1.</b> Reporte de actividades
+          p <b>Figura 2.</b> Reporte de actividades
 
         .row.align-items-center.justify-content-center.mb-5
           .col-lg-6(data-aos="fade-left") 
-            img.mb-3(src='@/assets/curso/images/tema3/info.svg')
+            img.mb-1(src='@/assets/curso/images/tema3/info.svg', alt='En el ejemplo de reporte de actividades se detalla la información del empleado, tareas completadas, tareas en curso y tareas para la próxima semana. ')
+            figcaption Nota. SENA, (2026).
           .col-lg-6(data-aos="fade-right") 
             p.mb-0 Como se puede evidenciar en la anterior figura, el reporte debe contener la información básica del empleado, para su correcta identificación y la medición de su rendimiento, por lo cual deben registrarse las tareas realizadas, las que están en progreso y las que pronto se realizarán, con el fin de:
 
@@ -603,10 +600,14 @@
 
     .row.justify-content-center
       .col-lg-6(data-aos="zoom-in-down")
+        .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
+          h5 Figura 3.
+          span Conceptos básicos para su estructuración y correcta elaboración de una base de datos de clientes
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/images/tema3/info_2.svg')
+              img.mb-1(src='@/assets/curso/images/tema3/info_2.svg', alt='A continuación de la figura se explica cada componente de la estructura de la base de datos de clientes.')
+            figcaption Nota. SENA, (2026).
           .tarjeta.color-custom-info.p-3(x="2%" y="8%" numero="+")
             h5 Atributo o campo 
             p.mb-0 Corresponde a las categorías de los datos almacenados en la tabla; es decir, al atributo de la información que se está especificando, los atributos van en la parte que corresponde a las columnas de la tabla.  Por ejemplo: nombre, código del cliente, dirección y edad, etc.
@@ -626,17 +627,18 @@
             p Es el conjunto de valores entre los cuales se puede encontrar delimitado el atributo, por ejemplo, solo datos numéricos, edades entre los 15 y 25, cabe mencionar que el dominio se realiza de acuerdo con la necesidad de la empresa. 
 
 
-    p.mb-3 Por otro lado, es de vital importancia que observe un registro de una base de datos de clientes y cómo se ubican cada uno de los elementos mencionados con anterioridad en la siguiente figura:
+    p.mb-3 Por otro lado, es de vital importancia el registro de una base de datos de clientes y cómo se ubican cada uno de los elementos mencionados con anterioridad en la siguiente figura:
 
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
-        h5 Figura 2
-        span Base de datos clientes
+      h5 Figura 4.
+      span Base de datos clientes
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-6(data-aos="fade-left") 
-        img.mb-3(src='@/assets/curso/images/tema3/info_2.svg')
+        img.mb-1(src='@/assets/curso/images/tema3/info_2.svg', alt='En la figura Base de datos de clientes contiene varios campos, como nombre, cédula, teléfono, dirección, compras por periodo, productos con mayor demanda por el cliente, registro de PQRS.')
+        figcaption Nota. SENA, (2026).
       .col-lg-6(data-aos="fade-right") 
-        p.mb-3 Se puede observar en la anterior figura que se habla de la tabla de clientes, esta contiene varios campos, como información general, compras, productos más solicitados por el cliente y su registro de PQRS; en dominio, se ve que la base de datos enseña su patrón de compra en los periodos de los años 2021 y 2022, siendo el límite esos dos años sin contar los anteriores y como clave candidata, se toma la cédula, dado que es un número único para cada persona. 
+        p.mb-3 En la anterior figura se habla de la tabla de clientes, esta contiene varios campos, como información general, compras, productos más solicitados por el cliente y su registro de PQRS; en dominio, se enseña su patrón de compra en los periodos de los años 2021 y 2022, siendo el límite esos dos años sin contar los anteriores y como clave candidata, se toma la cédula, dado que es un número único para cada persona. 
         p.mb-3 De esta manera, en el ejemplo anterior se podría evidenciar, gracias a esta base de datos, no solo el patrón de compra de un solo individuo, sino de todos los clientes a la vez para conocer cuáles son las fechas del año que representan los mayores ingresos de la empresa y así lograr hacerle frente, ya sea contratando asesores de ventas, o un mayor número de productos en inventario, además se puede conocer cuáles son los productos con mayor demanda, de acuerdo a gustos y preferencias o fechas del año.
         p.mb-0 Un ejemplo claro podría evidenciarse en las fechas decembrinas donde la demanda incrementa en productos del sector de alimentos y textil además de conocer cuáles son los problemas más frecuentes de la empresa para dar soluciones oportunas
 
@@ -656,7 +658,7 @@
           .col-lg-7.mb-4.mb-md-0
             h3 Asociación (1:1)
             p.mb-3 Es el tipo de relación en la que a cada registro de la tabla está relacionado solo con 1 registro de otra tabla. 
-            p.mb-0 Por ejemplo, en una tabla de productos y en una tabla de proveedores, encontramos que la relación es 1:1, porque cada producto solo puede suministrado por un proveedor (asumiendo que cada proveedor distribuya solo un tipo de producto).
+            p.mb-0 Por ejemplo, en una tabla de productos y en una tabla de proveedores, encontramos que la relación es 1:1, porque cada producto solo puede ser suministrado por un proveedor (asumiendo que cada proveedor distribuya solo un tipo de producto).
         
           .col-lg-4.mb-4.mb-md-0
             figure
@@ -670,7 +672,7 @@
             p.mb-0 Por ejemplo, si se tiene una tabla con la información de los clientes y otra con la información de los pedidos, puede haber una relación de uno a varios, ya que un cliente puede realizar varios pedidos y cada pedido puede corresponder solo a un cliente.
           .col-lg-5.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/images/tema3/img_26.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/images/tema3/img_26.png', alt='Texto que describa la imagen')
 
     p.mb-3 Las bases de datos son en la actualidad una de las herramientas más completas para el procesamiento y manejo de datos, porque otorgan grandes ventajas a sus usuarios y están cada día más al alcance de las organizaciones. Estas herramientas permiten el manejo de mucha información de una manera mucho más sencilla, lo que facilita a las empresas contar con este recurso útil y confiable en el cual puede basarse para la toma de decisiones.
 

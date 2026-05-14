@@ -52,7 +52,7 @@
             .col-lg-11
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Considerando lo anterior, es posible plantear problemas e interrogantes acerca de los preceptos mercantiles y los métodos o modos utilizados por el mercado y el  <i> Marketing </i> que permiten el correcto enfoque metodológico. Al tratarse de un tema de mercadeo se busca simplemente hacer un acercamiento a las problemáticas planteadas.
+                  p.mb-0 Considerando lo anterior, es posible plantear problemas e interrogantes acerca de los preceptos mercantiles y los métodos o modos utilizados por el mercado y el  <i> marketing </i> que permiten el correcto enfoque metodológico. Al tratarse de un tema de mercadeo se busca simplemente hacer un acercamiento a las problemáticas planteadas.
 
 
     .row.align-items-center.justify-content-center.mb-5
@@ -151,7 +151,11 @@
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo.mb-0.cs
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-12(data-aos="zoom-in-down")
-        img(src='@/assets/curso/images/tema2/info_1.png')
+        .titulo-sexto.color-acento-contenido.mb-4
+          h5 Figura 1.
+          span Tipos de clientes
+        img.mb-1(src='@/assets/curso/images/tema2/info_1.png', alt='Se explica los clientes mayoristas (personas jurídicas y físicas) al por mayor (clientes internos y externos)')
+        figcaption Nota. SENA, (2026).
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-3
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
@@ -328,7 +332,7 @@
         h3.titulo-con-imagen__texto Métodos y herramientas
 
 
-    p.mb-3 Las empresas mayoristas emplean diferentes fuentes de información para desarrollar un sistema de búsqueda adecuado para cada situación en relación a la venta y de acuerdo al sector al cual pertenece. Para conocer más del tema puede consultar el libro Estrategias y técnicas de comunicación: una visión integrada en el  <i> Marketing </i> de Rodríguez (2011, pp. 98-99), quien menciona algunas fuentes de información que van desde:
+    p.mb-3 Las empresas mayoristas emplean diferentes fuentes de información para desarrollar un sistema de búsqueda adecuado para cada situación en relación a la venta y de acuerdo al sector al cual pertenece. Para conocer más del tema puede consultar el libro Estrategias y técnicas de comunicación: una visión integrada en el  <i>marketing</i> de Rodríguez (2011, pp. 98-99), quien menciona algunas fuentes de información que van desde:
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-5(data-aos="fade-left") 
@@ -427,7 +431,7 @@
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-5(data-aos="fade-right") 
-        p.mb-3   La prospección persona a persona es una de las actividades más comunes que llevan a cabo los vendedores, ya sea cuando prospectan por medio del cambio o bien cuando se encuentran en algún punto de venta. El saber abordar al cliente e interesarse en el sistema a través de una <i> presentación efectiva </i>, es fundamental para concertar alguna cita o incluso para cerrar un contrato.
+        p.mb-3   La prospección persona a persona es una de las actividades más comunes que llevan a cabo los vendedores, ya sea cuando prospectan por medio del cambio o bien cuando se encuentran en algún punto de venta. El saber abordar al cliente e interesarse en el sistema a través de una presentación efectiva, es fundamental para concertar alguna cita o incluso para cerrar un contrato.
 
         p.mb-3 Una entrevista de presentación siempre empieza de manera similar a un embudo, donde primero se tiene que destinar la mayor parte del tiempo a obtener información del cliente; en segundo lugar, se deben orientar los esfuerzos en amoldar las ventajas y beneficios del producto con las necesidades del cliente para que en el fondo del embudo se logren los acuerdos y compromisos, lo que comúnmente se conoce como cierre.
       .col-lg-5(data-aos="fade-left") 
@@ -440,9 +444,9 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-1.text <b> Como parte de su aprendizaje autónomo, le invito a revisar el documento denominado Estrategia de  <i>Marketing</i>, el cual encuentra en el material complementario.</b>
+                  p.mb-1.text <b> Como parte de su aprendizaje autónomo se invita a revisar el documento denominado Estrategia de <i>marketing</i> el cual encuentra en el material complementario.</b>
                 .col-md-auto
-                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('downloads/Estrategia de Marketing.pdf')" target="_blank")
+                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('downloads/Estrategia_de_Marketing.pdf')" target="_blank")
                     span Descargar
                     .row
                       .col-auto
@@ -453,7 +457,7 @@
     #t_2_2.titulo-segundo
       .h2 2.2 Servicio al cliente
     
-    p.mb-3 El servicio al cliente es una herramienta de  <i> Marketing</i>, que se encarga de establecer puntos de contacto con los clientes a través de diferentes canales, para establecer relaciones con ellos, antes, durante y después de la venta.
+    p.mb-3 El servicio al cliente es una herramienta de  <i>marketing</i>, que se encarga de establecer puntos de contacto con los clientes a través de diferentes canales, para establecer relaciones con ellos, antes, durante y después de la venta.
 
     p.mb-5 Entre sus principales objetivos, se encuentran: 
 

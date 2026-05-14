@@ -36,7 +36,7 @@
 
     p.mb-3 Como se mencionó anteriormente, el manejo de la información es vital para el desarrollo y el correcto funcionamiento de las empresas, es aquí donde adquiere gran importancia la inteligencia empresarial o comercial para hacerle frente a las necesidades de los clientes y del mercado en general que demandan sobre la economía actual, por lo que las técnicas de recolección de la información, una correcta prospección de clientes y una segmentación adecuada de mercados harán la diferencia entre una empresa exitosa y una que no podrá afrontar la velocidad y el cambio de norte que esta era digitalizada exige.
 
-    p.mb-3 Si se habla de la zonificación y rutas de ventas, se entenderá que son factores que acercan más a las empresas a su objetivo real de llegarle a todo su público meta, tener claro este factor los vuelve eficientes, y asertivos y para ello están disponibles múltiples herramientas o software que agilizan y permiten tener claridad a la hora de tomar decisiones.
+    p.mb-3 Si se habla de la zonificación y rutas de ventas, se entenderá que son factores que acercan más a las empresas a su objetivo real de llegarle a todo su público meta, tener claro este factor los vuelve eficientes, y asertivos y para ello están disponibles múltiples herramientas o <em>software</em> que agilizan y permiten tener claridad a la hora de tomar decisiones.
 
     .row.aling.my-5   
       .col-lg-10(data-aos="zoom-in-down")

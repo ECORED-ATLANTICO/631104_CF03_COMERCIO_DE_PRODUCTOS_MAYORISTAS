@@ -188,8 +188,7 @@ export default {
     {
       referencia:
         'Ferrell, O., y Hartline, M. (2018). <em>Estrategia de marketing.</em> Cengage Learning.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_elibroELB39976',
+      link: '',
     },
     {
       referencia:
@@ -199,8 +198,7 @@ export default {
     {
       referencia:
         'Maslow, A. (2000). <em>El hombre autorrealizado.</em> Kairós SA.',
-      link:
-        'https://escuelafeliz.org/wp-content/uploads/2020/10/El-Hombre-Autorrealizado.-Hacia-una-psicologia-del-Ser-Abraham-H.-Maslow.pdf',
+      link: '',
     },
     {
       referencia:
@@ -211,7 +209,7 @@ export default {
     {
       referencia:
         'Mine, M. (2022). <em>La informatización de la sociedad.</em>',
-      link: 'http://biblioteca.clacso.edu.ar/ar/libros/critica/nro7/minc.pdf',
+      link: '',
     },
     {
       referencia:
@@ -222,8 +220,7 @@ export default {
     {
       referencia:
         'Rodríguez, A., I. (2007). <em>Estrategias y técnicas de comunicación. Una visión integrada en el marketing.</em> Editorial UOC.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_digitalia_hispanicaDIGEDIUOC046&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+      link: '',
     },
     {
       referencia:
@@ -233,18 +230,16 @@ export default {
     },
     {
       referencia: 'UCLA. (s. f.). <em>Qué es procesamiento de datos.</em>',
-      link:
-        'http://www.ucla.edu.ve/dac/Departamentos/coordinaciones/informaticai/documentos/PROCESAMIENTO%20DE%20DATOS.htm',
+      link: '',
     },
     {
       referencia: 'Universidad de Oviedo. (s. f.). <em>Tema 6-ficheros.</em>',
-      link:
-        'http://www.atc.uniovi.es/telematica/2ac/Apuntes-y-Ejercicios/T06-Ficheros.pdf',
+      link: '',
     },
     {
       referencia:
         'Universidad del Cauca. (s. f.). <em>Procesamiento de la información.</em>',
-      link: 'http://fccea.unicauca.edu.co/old/procesamiento.htm',
+      link: '',
     },
   ],
   glosario: [
@@ -266,7 +261,7 @@ export default {
     {
       termino: 'Mercadeo',
       significado:
-        'proceso responsable de diseñar y operar las estrategias para que los clientes adquieran los productos de la empresa de una forma rentable',
+        'proceso responsable de diseñar y operar las estrategias para que los clientes adquieran los productos de la empresa de una forma rentable.',
     },
     {
       termino: 'Plan de trabajo',

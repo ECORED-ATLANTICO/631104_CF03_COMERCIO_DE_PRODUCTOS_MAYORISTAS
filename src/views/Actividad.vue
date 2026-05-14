@@ -17,8 +17,8 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Mercados y clasificación de clientes',
-      titulo: 'Fundamentos de mercados y clasificación de clientes',
+      tema: 'Fundamentos de mercados y clasificación de clientes',
+      titulo: 'Cuestionario',
       introduccion:
         '<b> Objetivo:</b> identificar los conocimientos previos del estudiante sobre segmentación de mercados, tipos de clientes y manejo de información comercial.',
       barajarPreguntas: true,

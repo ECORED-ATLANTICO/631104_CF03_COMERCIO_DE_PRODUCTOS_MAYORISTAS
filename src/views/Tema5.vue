@@ -20,7 +20,7 @@
               ul.lista-ul--color.mt-3
                 li.mb-4.d-flex
                   i.fas.fa-paper-plane.colr_2
-                  | Los procesos a desarrollar
+                  | Los procesos a desarrollar.
                 li.mb-4.d-flex
                   i.fas.fa-paper-plane.colr_2
                   | Un cronograma.

@@ -10,12 +10,12 @@
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-5(data-aos="fade-right") 
         .cajon-b.color-custom-1.p-3.my-3
-          p.mb-3 Para entender la segmentación de mercados, primero se debe hablar del concepto: mercado en el área comercial y <i> Marketing</i>, viéndolo desde el punto de vista como <b> la plaza </b> a la cual las empresas y la economía se mueve en torno a los productos y servicios ofertados, de acuerdo a la demanda que se tiene de estos bajo la influencia de factores políticos, culturales y económicos, entre otros, que nacen a partir de las necesidades de los clientes, movidos por una sociedad globalizada y virtualizada. 
+          p.mb-3 Para entender la segmentación de mercados, primero se debe hablar del concepto: mercado en el área comercial y <i>marketing</i>, viéndolo desde el punto de vista como <b> la plaza </b> a la cual las empresas y la economía se mueve en torno a los productos y servicios ofertados, de acuerdo a la demanda que se tiene de estos bajo la influencia de factores políticos, culturales y económicos, entre otros, que nacen a partir de las necesidades de los clientes, movidos por una sociedad globalizada y virtualizada. 
 
       .col-lg-5(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema1/img_1.png')
 
-    p.mb-3 Hoy en día no solo se habla de mercados físicos tradicionales, también se encuentran los mercados virtuales que cada vez toman más fuerza y cancha, estimando un crecimiento del 74% para el año 2025, además de que representará aproximadamente el 85% de las ventas totales en Colombia (Pastrán, 2021), lo cual es un reto para las empresas actuales, siendo este cada vez más exigente, donde las compañías que logran el éxito son las que se adaptan con más facilidad y rapidez frente a los cambios que el multiculturalismo y la globalización promueven. 
+    p.mb-3 Hoy en día no solo se habla de mercados físicos tradicionales, también se encuentran los mercados virtuales que cada vez toman más fuerza y cancha, estimando un crecimiento del 74 % para el año 2025, además de que representará aproximadamente el 85 % de las ventas totales en Colombia (Pastrán, 2021), lo cual es un reto para las empresas actuales, siendo este cada vez más exigente, donde las compañías que logran el éxito son las que se adaptan con más facilidad y rapidez frente a los cambios que el multiculturalismo y la globalización promueven. 
 
     .row.aling.my-5   
       .col-lg-10(data-aos="zoom-in-down")
@@ -56,14 +56,14 @@
         img(src='@/assets/curso/images/tema1/img_3.png'  alt='', style="width:400px; display:block; margin:auto 0 ;")
 
 
-    TabsC.color-acento-botones.d-none.d-lg-block(data-aos="zoom-in-down")
-      .py-4.py-md-4.color-custom-2(titulo="Segmentación geográfica")
-        .row.justify-content-center.p-4
-          .col-12.col-md-4.mb-3.mb-md-0
+    TabsC.color-acento-botones(data-aos="zoom-in-down")
+      .py-4.py-lg-4.color-custom-2.p-3.p-lg-0(titulo="Segmentación geográfica")
+        .row.justify-content-center.p-xl-4
+          .col-12.col-lg-4.mb-3.mb-lg-0
             h5 Segmentación geográfica
-          .col-12.col-md-6.mb-3.mb-md-0
-        .row.justify-content-center.align-items-star.p-4
-          .col-12.col-md-4.mb-3.mb-md-0
+          .col-12.col-lg-6.mb-3.mb-lg-0
+        .row.justify-content-center.align-items-star.p-xl-4
+          .col-12.col-lg-4.mb-3.mb-lg-0
             p.mb-3 Tiene que ver con la utilización de datos geográficos para segmentar el mercado. Variables como:
             ul.lista-ul--color
               li.mb-4.d-flex
@@ -82,187 +82,102 @@
                 i.fas.fa-paper-plane.colr_2
                 | Clima, entre otros.
             p.mb-0 Estas variables, por lo general, son usadas para el posicionamiento de marca en la región.
-          .col-12.col-md-6.mb-3.mb-md-0
+          .col-12.col-lg-6.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/images/tema1/img_4.png').mb-3
             
 
-      .py-3.py-md-4.color-custom-2(titulo="Segmentación demográfica")
+      .py-3.py-lg-4.color-custom-2.p-3.p-lg-0(titulo="Segmentación demográfica")
         .row.justify-content-center
-          .col-12.col-md-6.mb-3.mb-md-0.p-3
-            h5.aling-1 Segmentación demográfica
-          .col-12.col-md-5.mb-3.mb-md-0
+          .col-12.col-lg-4.mb-3.mb-lg-0.p-xl-3
+            h5 Segmentación demográfica
+          .col-12.col-lg-6.mb-3.mb-lg-0
         .row.justify-content-center.align-items-star
-          .col-12.col-md-4.mb-3.mb-md-0.p-5
+          .col-12.col-lg-5.mb-3.mb-lg-0.p-xl-5
             p.mb-3 Se toman en cuenta los datos básicos de las personas, tales como:
-            ul.lista-ul--color
-              li.mb-4.d-flex
-                i.fas.fa-paper-plane.colr_2
-                | Edad.
-              li.mb-4.d-flex
-                i.fas.fa-paper-plane.colr_2
-                | Sexo
-              li.mb-4.d-flex
-                i.fas.fa-paper-plane.colr_2
-                | Estado civil.
-              li.mb-4.d-flex
-                i.fas.fa-paper-plane.colr_2
-                | Nivel educativo.
-              li.mb-4.d-flex
-                i.fas.fa-paper-plane.colr_2
-                | Nacionalidad.
-              li.mb-4.d-flex
-                i.fas.fa-paper-plane.colr_2
-                | Profesión
-              li.mb-4.d-flex
-                i.fas.fa-paper-plane.colr_2
-                | Niveles de ingresos.
-          .col-12.col-md-2.mb-3.mb-md-0.p-4
-            figure
-              img(src='@/assets/curso/images/tema1/llave.svg',  alt='', style="width:200px; display:block; margin:6rem 1rem ;").mb-3
-          .col-12.col-md-5.mb-3.mb-md-0
+            .row.justify-content-center.align-items-center
+              .col-12.col-md-9.col-lg-4.col-xl-6.mb-3.mb-lg-0
+                ul.lista-ul--color
+                  li.mb-lg-2.mb-xl-3.d-flex
+                    i.fas.fa-paper-plane.colr_2
+                    | Edad.
+                  li.mb-lg-2.mb-xl-3.d-flex
+                    i.fas.fa-paper-plane.colr_2
+                    | Sexo.
+                  li.mb-lg-2.mb-xl-3.d-flex
+                    i.fas.fa-paper-plane.colr_2
+                    | Estado civil.
+                  li.mb-lg-2.mb-xl-3.d-flex
+                    i.fas.fa-paper-plane.colr_2
+                    | Nivel educativo.
+                  li.mb-lg-2.mb-xl-3.d-flex
+                    i.fas.fa-paper-plane.colr_2
+                    | Nacionalidad.
+                  li.mb-lg-2.mb-xl-3.d-flex
+                    i.fas.fa-paper-plane.colr_2
+                    | Profesión.
+                  li.mb-lg-2.mb-xl-3.d-flex
+                    i.fas.fa-paper-plane.colr_2
+                    | Niveles de ingresos.
+              .col-12.col-md-3.col-lg-8.col-xl-6.mb-3.mb-lg-0
+                figure
+                  img(src='@/assets/curso/images/tema1/llave.svg',  alt='', style="width:200px; display:block;")
+          .col-12.col-lg-5.mb-3.mb-lg-0
             figure
               img.mt-5(src='@/assets/curso/images/tema1/img_5.png').mb-3
 
-     
-      .py-3.py-md-4.color-custom-2(titulo="Segmentación psicográfica")
-        .row.justify-content-center.p-4
-          .col-12.col-md-5.mb-3.mb-md-0
-            h5.aling-1 Segmentación psicográfica
-          .col-12.col-md-7.mb-3.mb-md-0
+
+      .py-3.py-lg-4.color-custom-2.p-3.p-lg-0(titulo="Segmentación psicográfica")
+        .row.justify-content-center.p-xl-4
+          .col-12.col-lg-4.mb-3.mb-lg-0
+            h5 Segmentación psicográfica
+          .col-12.col-lg-6.mb-3.mb-lg-0
         .row.justify-content-center.align-items-star
-          .col-12.col-md-4.mb-3.mb-md-0.p-5
-            p.mb-3.aling-2.mt-3  Esta toma en cuenta características psicológicas de las personas agrupándolas por:
-              ul.lista-ul--color.mt-5
-                li.mb-4.d-flex
-                  i.fas.fa-paper-plane.colr_2
-                  | Valores.
-                li.mb-4.d-flex
-                  i.fas.fa-paper-plane.colr_2
-                  | Personalidad.
-                li.mb-4.d-flex
-                  i.fas.fa-paper-plane.colr_2
-                  | Estilo de vida.
-                li.mb-4.d-flex
-                  i.fas.fa-paper-plane.colr_2
-                  | Clase social.
-          .col-12.col-md-2.mb-3.mb-md-0
-            figure
-              img(src='@/assets/curso/images/tema1/llave_2.svg',  alt='', style="width:250px; display:block; margin:11rem 1rem;").mb-3
-          .col-12.col-md-6.mb-3.mb-md-0
+          .col-12.col-lg-4.mb-3.mb-lg-0.p-xl-5
+            p.mb-3.mt-3  Esta toma en cuenta características psicológicas de las personas agrupándolas por:
+            .row.justify-content-center.align-items-center
+              .col-12.col-md-9.col-lg-4.col-xl-6.mb-3.mb-lg-0
+                ul.lista-ul--color
+                  li.mb-lg-2.mb-xl-3.d-flex
+                    i.fas.fa-paper-plane.colr_2
+                    | Valores.
+                  li.mb-lg-2.mb-xl-3.d-flex
+                    i.fas.fa-paper-plane.colr_2
+                    | Personalidad.
+                  li.mb-lg-2.mb-xl-3.d-flex
+                    i.fas.fa-paper-plane.colr_2
+                    | Estilo de vida.
+                  li.mb-lg-2.mb-xl-3.d-flex
+                    i.fas.fa-paper-plane.colr_2
+                    | Clase social.
+              .col-12.col-md-3.col-lg-8.col-xl-6.mb-3.mb-lg-0
+                figure
+                  img(src='@/assets/curso/images/tema1/llave_2.svg',  alt='', style="width:250px; display:block;")
+          .col-12.col-lg-6.mb-3.mb-lg-0
             figure
               img.mt-5(src='@/assets/curso/images/tema1/img_6.png').mb-3
 
 
-      .py-3.py-md-4.color-custom-2(titulo="Segmentación  conductual")
-        .row.justify-content-center.align-items-star.p-4
-          .col-12.col-md-4.mb-3.mb-md-0
-            h5.mb-3 Segmentación  conductual
-            p.mb-0 Su interés se encuentra en hallar los patrones de consumo del mercado, factores que tienen que ver con la decisión de compra, facilitando la identificación de las necesidades de los consumidores.
-          .col-12.col-md-6.mb-3.mb-md-0
-            figure
-              img.mt-5(src='@/assets/curso/images/tema1/img_7.png').mb-3
-
-
-      .py-3.py-md-4.color-custom-2(titulo="Segmentación  por industria")
-        .row.justify-content-center.p-4
-          .col-12.col-md-4.mb-0.mb-md-0
-            h5 Segmentación  por industria
-          .col-12.col-md-6.mb-0.mb-md-0
-        .row.justify-content-center.align-items-star.p-4
-          .col-12.col-md-4.mb-0.mb-md-0
-            p.mb-5 Tiene que ver con segmentar las empresas por sectores industriales, como: 
-            ul.lista-ul--color
-              li.mb-4.d-flex
-                i.fas.fa-paper-plane.colr_2
-                | El sector agropecuario.
-              li.mb-4.d-flex
-                i.fas.fa-paper-plane.colr_2
-                | El sector industrial.
-              li.mb-4.d-flex
-                i.fas.fa-paper-plane.colr_2
-                | El sector tecnológico, entre otros.
-          .col-12.col-md-6.mb-3.mb-md-0
-            figure
-              img(src='@/assets/curso/images/tema1/img_8.png').mb-3
-
-
-    TabsC.color-acento-contenido.d-block.d-lg-none(data-aos="zoom-in-down")
-      .py-3.py-md-4.color-custom-2(titulo="Segmentación geográfica")
-        .row.justify-content-center.p-4
-          .col-12.col-md-4.mb-3.mb-md-0
-            h5 Segmentación geográfica
-          .col-12.col-md-6.mb-3.mb-md-0
-        .row.justify-content-center.align-items-star.p-4
-          .col-12.col-md-4.mb-3.mb-md-0
-            p.mb-3 Tiene que ver con la utilización de datos geográficos para segmentar el mercado. Variables como:
-            ul.lista-ul--color
-              li.mb-4.d-flex
-                i.fas.fa-paper-plane.colr_2
-                | Región del mundo.
-              li.mb-4.d-flex
-                i.fas.fa-paper-plane.colr_2
-                | País.
-              li.mb-4.d-flex
-                i.fas.fa-paper-plane.colr_2
-                | Estado civil.
-              li.mb-4.d-flex
-                i.fas.fa-paper-plane.colr_2
-                | Tamaño de la ciudad.
-              li.mb-4.d-flex
-                i.fas.fa-paper-plane.colr_2
-                | Clima, entre otros.
-            p.mb-0 Estas variables, por lo general, son usadas para el posicionamiento de marca en la región.
-          .col-12.col-md-6.mb-3.mb-md-0
-            figure
-              img(src='@/assets/curso/images/tema1/img_4.png').mb-3
-            
-
-      .py-3.py-md-4.color-custom-2(titulo="Segmentación demográfica")
+      .py-3.py-lg-4.color-custom-2.p-3.p-lg-0(titulo="Segmentación  conductual")
         .row.justify-content-center
-          .col-12.col-md-6.mb-3.mb-md-0.p-3
-            h5.aling-1 Segmentación demográfica
+          .col-12.col-lg-5.mb-3.mb-lg-0
+            h5 Segmentación  conductual
+          .col-12.col-lg-6.mb-3.mb-lg-0
         .row.justify-content-center.align-items-star
-          .col-12.col-md-4.mb-3.mb-md-0.p-5
-            p.mb-3.aling-2 Se toman en cuenta los datos básicos de las personas, tales como:
-            figure
-              img(src='@/assets/curso/images/tema1/list_1.svg')
-          .col-12.col-md-5.mb-3.mb-md-0
-            figure
-              img(src='@/assets/curso/images/tema1/img_5.png')
-
-     
-      .py-3.py-md-4.color-custom-2(titulo="Segmentación psicográfica")
-        .row.justify-content-center.p-4
-          .col-12.col-md-5.mb-3.mb-md-0
-            h5.aling-1 Segmentación psicográfica
-        .row.justify-content-center.align-items-star
-          .col-12.col-md-4.mb-3.mb-md-0.p-5
-            p.mb-3.aling-2  Esta toma en cuenta características psicológicas de las personas agrupándolas por:
-            figure
-              img(src='@/assets/curso/images/tema1/list_2.svg')
-          .col-12.col-md-6.mb-3.mb-md-0
-            figure
-              img(src='@/assets/curso/images/tema1/img_6.png')
-
-
-      .py-3.py-md-4.color-custom-2(titulo="Segmentación  conductual")
-        .row.justify-content-center.align-items-star.p-4
-          .col-12.col-md-4.mb-3.mb-md-0
-            h5.mb-3 Segmentación  conductual
+          .col-12.col-lg-4.col-xl-4.mb-3.mb-lg-0
             p.mb-0 Su interés se encuentra en hallar los patrones de consumo del mercado, factores que tienen que ver con la decisión de compra, facilitando la identificación de las necesidades de los consumidores.
-          .col-12.col-md-6.mb-3.mb-md-0
+          .col-12.col-lg-7.col-xl-6.mb-3.mb-lg-0
             figure
-              img.mt-5(src='@/assets/curso/images/tema1/img_7.png').mb-3
+              img(src='@/assets/curso/images/tema1/img_7.png')
 
 
-      .py-3.py-md-4.color-custom-2(titulo="Segmentación  por industria")
-        .row.justify-content-center.p-4
-          .col-12.col-md-4.mb-0.mb-md-0
+      .py-3.py-lg-4.color-custom-2.p-3.p-lg-0(titulo="Segmentación  por industria")
+        .row.justify-content-center.p-xl-4
+          .col-12.col-lg-4.mb-0.mb-lg-0
             h5 Segmentación  por industria
-          .col-12.col-md-6.mb-0.mb-md-0
-        .row.justify-content-center.align-items-star.p-4
-          .col-12.col-md-4.mb-0.mb-md-0
+          .col-12.col-lg-6.mb-0.mb-lg-0
+        .row.justify-content-center.align-items-star.p-xl-4
+          .col-12.col-lg-4.mb-0.mb-lg-0
             p.mb-5 Tiene que ver con segmentar las empresas por sectores industriales, como: 
             ul.lista-ul--color
               li.mb-4.d-flex
@@ -274,16 +189,19 @@
               li.mb-4.d-flex
                 i.fas.fa-paper-plane.colr_2
                 | El sector tecnológico, entre otros.
-          .col-12.col-md-6.mb-3.mb-md-0
+          .col-12.col-lg-6.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/images/tema1/img_8.png').mb-3
+
+
+    
 
     Separador
 
     #t_1_2.titulo-segundo
       .h2 1.2 Criterios de segmentación de mercados
     
-    p.mb-3 Cuando se habla de los criterios de segmentación de mercados, es necesario mencionar que no todos los enfoques utilizados para su realización, son viables o efectivos en cada área o sector de la economía, por ello es necesario tener criterios claros que brinden un norte seguro para tener un alto nivel de confiabilidad, además, de ser efectivos a la hora de aplicarlo. Estos criterios se pueden resumir en cinco: “identificable y mensurable, sustancial, accesible, sensible y viable y sostenible” (Ferrell y Hartline, 2018, p. 134). A continuación se describen cada uno:
+    p.mb-3 Cuando se habla de los criterios de segmentación de mercados, es necesario mencionar que no todos los enfoques utilizados para su realización, son viables o efectivos en cada área o sector de la economía, por ello es necesario tener criterios claros que brinden un norte seguro para tener un alto nivel de confiabilidad, además, de ser efectivos a la hora de aplicarlo. Estos cinco criterios se pueden resumir así: “identificable y mensurable, sustancial, accesible, sensible y viable y sostenible” (Ferrell y Hartline, 2018, p. 134). A continuación se describen cada uno:
 
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bgr_5
@@ -299,7 +217,7 @@
           figure
             img.mb-3(src='@/assets/curso/images/tema1/img_10.png', alt='Texto que describa la imagen')
         .col-md-6.mb-4.mb-md-0.align-items-center
-          p.mb-0 El segmento al que se apunta debe tener la capacidad de responder de manera económica a las inversiones que se realicen en él, en cuanto a estrategias de <i> Marketing </i> y demás costes, para su correcto funcionamiento y sostenimiento de las empresas en el sector apuntado.
+          p.mb-0 El segmento al que se apunta debe tener la capacidad de responder de manera económica a las inversiones que se realicen en él, en cuanto a estrategias de <i> marketing </i> y demás costos, para su correcto funcionamiento y sostenimiento de las empresas en el sector apuntado.
         
       .row(titulo="Accesible").p-4
         .col-md-6
@@ -341,9 +259,9 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-1 Como parte de su aprendizaje autónomo le invito a revisar el documento denominado <i> Marketing</i>, versión para Latinoamérica, el cual se encuentra en los materiales complementarios.
+                  p.mb-1 Como parte de su aprendizaje autónomo se invita a revisar el documento denominado <i>marketing</i>, versión para Latinoamérica, el cual se encuentra en los materiales complementarios.
                 .col-md-auto
-                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('downloads/Marketing.pdf')" target="_blank")
+                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('downloads/Marketing_version_para_Latinoamérica.pdf')" target="_blank")
                     span Descargar
                     .row
                       .col-auto
@@ -364,7 +282,7 @@
           ul.lista-ul--color.mt-3
             li.mb-4.d-flex
               i.fas.fa-paper-plane.colr_2
-              | Realizar estrategias de comparación de niveles de precios
+              | Realizar estrategias de comparación de niveles de precios.
             li.mb-4.d-flex
               i.fas.fa-paper-plane.colr_2
               | Conocer las nuevas tendencias del mercado en el sector a nivel nacional e internacional.
