@@ -21,7 +21,7 @@
       .col-lg-10(data-aos="zoom-in-down")
         .cajon.color-custom.p-4.mb-4.p-2
           .row.justify-content-around.align-items-center
-            .col-lg-2.col-sm-2
+            .col-lg-2.justify-content-center.align-items-center.d-flex
               img.mx-3(src="@/assets/curso/images/tema1/ico_1.svg",  alt='', style="width:90px; display:block; margin:auto 0 ;").mb-3
             .col-lg-10
               .row.justify-content-between.align-items-center
@@ -45,7 +45,7 @@
       .h2 1.1 Variables de mercado
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-5(data-aos="fade-right") 
+      .col-lg-5.mb-3.mb-lg-0(data-aos="fade-right") 
         p.mb-3 Al hacer referencia de las variables del mercado, se debe entender el mercado como un lenguaje. Cada país tiene su propia cultura y maneja su propio lenguaje, así, desde esta perspectiva del mercado, las empresas deben hablar el mismo lenguaje que el consumidor final.
 
         p.mb-3 Por lo tanto, es necesario codificar esta información para alcanzar el mercado meta o los clientes potenciales que la empresa desea, entendiéndolo de esta manera, se puede notar que él o ella este en un grupo de clientes no se segmenta sin razón alguna, por el contrario, debe hacerse una continua investigación del mercado y de los clientes para ser más efectivos y eficaces a la hora de ser una compañía flexible, a la vanguardia y competente.
@@ -53,7 +53,7 @@
         p.mb-0 Por lo anterior, una correcta segmentación de mercado hará la toma de decisiones más fácil; por lo tanto, sus variables para su correcta realización serán importantes, es por eso que se hace necesario conocerla, así:
 
       .col-lg-5(data-aos="fade-left") 
-        img(src='@/assets/curso/images/tema1/img_3.png'  alt='', style="width:400px; display:block; margin:auto 0 ;")
+        img(src='@/assets/curso/images/tema1/img_3.png'  alt='', style="width:400px; display:block; margin:auto ;")
 
 
     TabsC.color-acento-botones(data-aos="zoom-in-down")
@@ -96,7 +96,7 @@
           .col-12.col-lg-5.mb-3.mb-lg-0.p-xl-5
             p.mb-3 Se toman en cuenta los datos básicos de las personas, tales como:
             .row.justify-content-center.align-items-center
-              .col-12.col-md-9.col-lg-4.col-xl-6.mb-3.mb-lg-0
+              .col-6.col-md-9.col-lg-4.col-xl-6.mb-3.mb-lg-0
                 ul.lista-ul--color
                   li.mb-lg-2.mb-xl-3.d-flex
                     i.fas.fa-paper-plane.colr_2
@@ -119,7 +119,7 @@
                   li.mb-lg-2.mb-xl-3.d-flex
                     i.fas.fa-paper-plane.colr_2
                     | Niveles de ingresos.
-              .col-12.col-md-3.col-lg-8.col-xl-6.mb-3.mb-lg-0
+              .col-6.col-md-3.col-lg-8.col-xl-6.mb-3.mb-lg-0
                 figure
                   img(src='@/assets/curso/images/tema1/llave.svg',  alt='', style="width:200px; display:block;")
           .col-12.col-lg-5.mb-3.mb-lg-0
@@ -136,7 +136,7 @@
           .col-12.col-lg-4.mb-3.mb-lg-0.p-xl-5
             p.mb-3.mt-3  Esta toma en cuenta características psicológicas de las personas agrupándolas por:
             .row.justify-content-center.align-items-center
-              .col-12.col-md-9.col-lg-4.col-xl-6.mb-3.mb-lg-0
+              .col-6.col-md-9.col-lg-4.col-xl-6.mb-3.mb-lg-0
                 ul.lista-ul--color
                   li.mb-lg-2.mb-xl-3.d-flex
                     i.fas.fa-paper-plane.colr_2
@@ -150,7 +150,7 @@
                   li.mb-lg-2.mb-xl-3.d-flex
                     i.fas.fa-paper-plane.colr_2
                     | Clase social.
-              .col-12.col-md-3.col-lg-8.col-xl-6.mb-3.mb-lg-0
+              .col-6.col-md-3.col-lg-8.col-xl-6.mb-3.mb-lg-0
                 figure
                   img(src='@/assets/curso/images/tema1/llave_2.svg',  alt='', style="width:250px; display:block;")
           .col-12.col-lg-6.mb-3.mb-lg-0
@@ -296,7 +296,7 @@
 
     p.mb-3 El sistema de monitoreo de mercado mantiene a las empresas activas, flexibles y en una constante actualización dada la volatilidad cambiante de la economía actual, se deben mirar los niveles de riesgo del sector, qué tanto es el riesgo tomado por la empresa en seguir invirtiendo y cuáles son los de precios y cómo varían.
 
-    .row.align-items-center.justify-content-center
+    .row.align-items-center.justify-content-center.mb-5
       .col-lg-6(data-aos="fade-left")
           p.mb-3 Si la empresa es competente, puede competir dentro de los rangos de precios que la economía ha dispuesto, porque:
             ul.lista-ul--color.mt-3
@@ -314,9 +314,9 @@
         img(src='@/assets/curso/images/tema1/img_15.png')
       
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-4(data-aos="fade-left") 
-        img.mb-3(src='@/assets/curso/images/tema1/img_16.png'  alt='', style="width:400px; display:block; margin:auto 0 ;")
-      .col-lg-6(data-aos="fade-right") 
+      .col-lg-4.order-2.order-lg-1(data-aos="fade-left") 
+        img.mb-3(src='@/assets/curso/images/tema1/img_16.png'  alt='', style="width:400px; display:block; margin:auto;")
+      .col-lg-6.order-1.order-lg-2(data-aos="fade-right") 
         p.mb-3 Partiendo de la necesidad de recolectar información para los sistemas de monitoreo de mercados, se debe hablar entonces de datos, como la materia prima fundamental para monitorear el sector al cual pertenecen las empresas, estos deben cumplir con ciertas condiciones como:
         ul.lista-ul--color
           li.mb-4.d-flex
@@ -337,33 +337,49 @@
 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
 
-    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-up")
-        .col-12.col-md-3.mb-3.mb-md-0
-          div.bgr_3.p-5
-            .row.align-items-center.justify-content-center.mb-4  
-              img.img120(src="@/assets/curso/images/tema1/ico_2.png" alt='', style="width:200px; display:block; margin:auto 0 ;")
-            h3.text-center Utilidad
-            p.mb-4.text-center Debe responder a las necesidades de la empresa y estar en constante retroalimentación con un foco claro, como lo es su mercado meta.
-        .col-12.col-md-3.mb-3.mb-md-0
-          div.bgr_4.p-5
-            .row.align-items-center.justify-content-center.mb-4         
-              img.img120(src="@/assets/curso/images/tema1/ico_4.png" alt='', style="width:200px; display:block; margin:auto 0 ;")
-            h3.text-center Objetividad
-            p.mb-5.text-center Los datos deben de responder a la primicia de ser claros, medibles y exactos, en un contexto claro del mercado al cual pertenecen las empresas.
-          
-        .col-12.col-md-3.mb-3.mb-md-0
-          div.bgr_3.p-5
-            .row.align-items-center.justify-content-center.mb-4      
-              img.img120(src="@/assets/curso/images/tema1/ico_3.png" alt='', style="width:200px; display:block; margin:auto 0 ;")
-            h3.text-center Integridad
-            p.mb-4.text-center Los datos deben ser soportados con fuentes verificables, consistentes en sus atributos, dado que nada puede estar sustentado bajo supuestos.
-        .col-12.col-md-3.mb-3.mb-md-0
-          div.bgr_4.p-5
-            .row.align-items-center.justify-content-center.mb-4         
-              img.img120(src="@/assets/curso/images/tema1/ico_5.png" alt='', style="width:200px; display:block; margin:auto 0 ;")
-            h3.text-center Transparencia
-            p.mb-0.text-center Las fuentes de información y los datos deben estar disponibles para su verificación y control, además de que su recolección debe de ser consistente, presentando los márgenes de error.
+    .row.mb-5.justify-content-center
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
+        .tarjeta--boton.bgr_3.h-100.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/images/tema1/ico_2.png', alt='Texto que describa la imagen')
+    
+          h3.mb-4.text-center Utilidad
+          p.text-center Debe responder a las necesidades de la empresa y estar en constante retroalimentación con un foco claro, como lo es su mercado meta.
+    
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-down")
+        .tarjeta--boton.bgr_4.h-100.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/images/tema1/ico_4.png', alt='Texto que describa la imagen')
+    
+          h3.mb-4.text-center Objetividad
+          p.text-center Los datos deben de responder a la primicia de ser claros, medibles y exactos, en un contexto claro del mercado al cual pertenecen las empresas.
+      
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
+        .tarjeta--boton.bgr_3.h-100.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/images/tema1/ico_3.png', alt='Texto que describa la imagen')
+    
+          h3.mb-4.text-center Integridad
+          p.text-center Los datos deben ser soportados con fuentes verificables, consistentes en sus atributos, dado que nada puede estar sustentado bajo supuestos.
 
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-down")
+        .tarjeta--boton.bgr_4.h-100.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/images/tema1/ico_5.png', alt='Texto que describa la imagen')
+    
+          h3.mb-4.text-center Transparencia
+          p.text-center Las fuentes de información y los datos deben estar disponibles para su verificación y control, además de que su recolección debe de ser consistente, presentando los márgenes de error.
+
+
+    
     
 
 

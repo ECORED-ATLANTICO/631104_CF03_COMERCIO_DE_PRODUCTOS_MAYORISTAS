@@ -19,11 +19,11 @@
         .bloque-texto-a.color-custom-7.p-md-0.mb-5.d-block.d-lg-none
           .row.m-4.align-items-center.justify-content-between
             .col-lg-9(data-aos="fade-right")
-              .bloque-texto-a__texto.p-5.my-5
+              .bloque-texto-a__texto.p-3.p-md-5.my-5
                 p La zonificación se entiende cómo la acción que busca explorar y dividir en segmentos, según características especiales. En términos de mercadeo, se define como el área geográfica en la que las empresas o vendedores realizan su actividad económica, por lo que la zonificación de ventas es importante para los empresarios ya que representa clientes seguros. 
             .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
               figure
-                img(src='@/assets/curso/images/tema4/img_1.png' alt='', style="width:400px; display:block; margin:-1rem 0 ;").mb-3
+                img(src='@/assets/curso/images/tema4/img_1.png' alt='', style="width:400px; display:block; margin:auto;").mb-3
 
 
     p.mb-3 Llevando esto a la vida común, son las zonas donde se encuentran artículos, productos y empresas, de la misma categoría o similares en una misma área, la central de abastos de cualquier ciudad sería un gran ejemplo, los almacenes y locales que se ven en esta área son muy afines, venta de verduras, frutas, insumos agrícolas, insumos pecuarios, cárnicos y almacenes de granos, entre otros, por lo que muy difícilmente se encontrará un consorcio de abogados, un contador, un odontólogo o empresas de finanzas.
@@ -73,23 +73,23 @@
           .bloque-texto-g__texto.p-5.m-right(data-aos="fade-left")
             p.mb-0 En el proceso de zonificación, se deben tener en cuenta factores clave que  formarán parte de una base de datos que permitirá dar un control real de la gestión de las empresas en ámbitos comerciales, contribuyendo al crecimiento, desarrollo y evolución de las mismas, como también dar visibilidad a nuevas rutas y nuevas plazas que las compañías podrían vincular a su estrategia de mercado para ser más competentes; estos factores son los siguientes:
 
-    .bloque-texto-a.color-custom-7.p-md-0.mb-5.d-block.d-lg-none
+    .bloque-texto-a.color-custom-7.p-md-0.mb-3.d-block.d-lg-none
       .row.m-4.align-items-center.justify-content-between
         .col-lg-9(data-aos="fade-right")
-          .bloque-texto-a__texto.p-5.my-5
+          .bloque-texto-a__texto.p-3.p-md-5.my-5
             p En el proceso de zonificación, se deben tener en cuenta factores clave que  formarán parte de una base de datos que permitirá dar un control real de la gestión de las empresas en ámbitos comerciales, contribuyendo al crecimiento, desarrollo y evolución de las mismas, como también dar visibilidad a nuevas rutas y nuevas plazas que las compañías podrían vincular a su estrategia de mercado para ser más competentes; estos factores son los siguientes:
         .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
           figure
-            img(src='@/assets/curso/images/tema4/img_4.png' alt='', style="width:400px; display:block; margin:-1rem 0 ;").mb-3
+            img(src='@/assets/curso/images/tema4/img_4.png' alt='', style="width:400px; display:block; margin:auto;").mb-3
 
 
-    .row.justify-content-evenly.align-items-center.p-2
-      .col-12.col-lg-7.mb-4.p-0.p-md-5(data-aos="fade-left")
-        h3.my-5 Cliente Real
+    .row.aling.align-items-center.p-2
+      .col-12.col-xl-7.mb-4.p-0.p-lg-5(data-aos="fade-left")
+        h3.mb-4.my-lg-5 Cliente Real
         LineaTiempoD.color-secundario.especial
           .row(titulo='Cliente real' numero='1')
             .row.justify-content-center.align-items-star
-              .col-12.col-lg-4.mb-4.mb-lg-0
+              .col-md-6.col-lg-4.mb-4.mb-lg-0
                 figure
                   img(src='@/assets/curso/images/tema4/img_7.png' alt='').mb-3
                   p.text-small Un cliente satisfecho, siempre regresa.
@@ -98,7 +98,7 @@
                 p.mb-0 Para mantener a un cliente real satisfecho es necesario conocer al cliente, pedir su opinión, orientación y dar solución a los problemas que este tenga. 
           .row(titulo='Cliente potencial' numero='2')
             .row.justify-content-center.align-items-star
-              .col-lg-5 
+              .col-md-6.col-lg-5 
                 figure
                   img(src='@/assets/curso/images/tema4/img_8.png' alt='').mb-3
                   p.text-small Compra por la calidad de los productos.
@@ -110,7 +110,7 @@
 
           .row(titulo='Número de visitas diarias' numero='3')
             .row.justify-content-center.align-items-star
-              .col-lg-5
+              .col-md-6.col-lg-5
                 figure
                   img(src='@/assets/curso/images/tema4/img_9.png' alt='').mb-3
                   p.text-small El cliente regresa para ver novedades.
@@ -118,23 +118,23 @@
                 p Es la cantidad de veces que un cliente visita un local. 
           .row(titulo='Frecuencia de visitas diarias' numero='4')
             .row.justify-content-center.align-items-star
-              .col-lg-5 
+              .col-md-6.col-lg-5 
                 figure
                   img(src='@/assets/curso/images/tema4/img_10.png' alt='').mb-3
               .col-lg-7
                 p.mb-3  Es la cantidad de veces que un mismo cliente visita un local.
 
-      .col-lg-5(data-aos="fade-right")
-        img(src='@/assets/curso/images/tema4/img_5.svg' alt='', style="width:500px; display:block; margin:auto 0;")
+      .col-xl-5(data-aos="fade-right").justify-content-center
+        img(src='@/assets/curso/images/tema4/img_5.svg' alt='', style="width:500px; margin:auto;")
 
-    .row.justify-content-evenly.align-items-center.p-2.mb-5
-      .col-12.col-lg-5.mb-4.p-0.p-md-5(data-aos="fade-right")
-        img.my-5(src='@/assets/curso/images/tema4/img_6.svg' alt='', style="width:500px; display:block; margin:auto 0;")
-      .col-lg-7(data-aos="fade-left")
+    .row.justify-content-evenly.align-items-center.p-2
+      .col-12.col-xl-5.mb-4.p-0.p-md-5(data-aos="fade-right").order-2.order-xl-1
+        img.my-5(src='@/assets/curso/images/tema4/img_6.svg' alt='', style="width:500px; margin:auto;")
+      .col-xl-7(data-aos="fade-left").order-1.order-xl-2
         LineaTiempoD.color-secundario.especial
           .row(titulo='Transporte' numero='5')
             .row.justify-content-center.align-items-star
-              .col-lg-5 
+              .col-md-6.col-lg-5 
                 figure
                   img(src='@/assets/curso/images/tema4/img_11.png' alt='').mb-3
                   p.text-small Transporte de carga y distribución, logística.
@@ -144,7 +144,7 @@
 
           .row(titulo='Demanda de los productos' numero='6')
             .row.justify-content-center.align-items-star
-              .col-lg-5
+              .col-md-6.col-lg-5
                 figure
                   img(src='@/assets/curso/images/tema4/img_12.png' alt='').mb-3
                   p.text-small Según necesidades del cliente.
@@ -153,7 +153,7 @@
 
           .row(titulo='Competencia de los productos' numero='7')
             .row.justify-content-center.align-items-star
-              .col-lg-5 
+              .col-md-6.col-lg-5 
                 figure
                   img(src='@/assets/curso/images/tema4/img_13.png' alt='').mb-3
                   p.text-small El cliente… elige.
@@ -163,7 +163,7 @@
 
           .row(titulo='Capacidad de los vendedores' numero='8')
             .row.justify-content-center.align-items-star
-              .col-lg-5 
+              .col-md-6.col-lg-5 
                 figure
                   img(src='@/assets/curso/images/tema4/img_14.png' alt='').mb-3
                   p.text-small El cliente regresa… el vendedor hace el cierre de la compra.
@@ -282,11 +282,11 @@
         .bloque-texto-a.color-custom-7.p-md-0.mb-5.d-block.d-lg-none
           .row.m-4.align-items-center.justify-content-between
             .col-lg-9(data-aos="fade-right")
-              .bloque-texto-a__texto.p-5.my-5
+              .bloque-texto-a__texto.p-3.p-md-5.my-5
                 p Cuando se habla de ruta de ventas, es un formato o base de datos de nombres, direcciones y artículos donde agiliza la ruta básica a tomar con un cliente, esta información debe ser totalmente veraz y completa, para mayor efectividad, por lo tanto, es la clave real que las empresas mayoristas utilizan para su distribución a nivel regional, departamental, nacional y hasta internacional.
             .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
               figure
-                img(src='@/assets/curso/images/tema4/img_19.png' alt='', style="width:400px; display:block; margin:-1rem 0 ;").mb-3
+                img(src='@/assets/curso/images/tema4/img_19.png' alt='', style="width:400px; display:block; margin:auto;").mb-3
 
     p.mb-5 Estas deben ser diseñadas de tal manera que, en el menor tiempo de recorrido, puedan abarcar a todos los clientes actuales y los nuevos ingresos, un claro ejemplo de diseño de ruta de ventas se refleja en empresas de marcas registradas como Nestlé y Alpina con sus canales de distribución masivos o empresas de mensajería, que ya tienen rutas diseñadas en cada ciudad para llegar a todos sus clientes en el menor tiempo posible.
 
@@ -347,7 +347,7 @@
             | Identifican qué tipo de zona es, es decir si es homogénea o no, como ejemplo: 	las calles, las ferreterías, etc., entre otros servicios.
       
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10    
+      .col-xl-10    
         .jumbotron-1.p-4(data-aos="zoom-in-down")    
           .row.justify-content-center.align-items-center
             .col-lg-8
@@ -356,32 +356,32 @@
               .col-lg-3
                 .jumbotron-2.p-3.mb-3
                   .row.align-items-center
-                    .col-lg-auto.mb-3.mb-lg-0
+                    .col-lg-auto
                       img.d-none.d-lg-flex(src="@/assets/curso/images/tema4/ico_fly.svg", style="max-width: 90px").mx-auto
                     .col-lg
-                      p.mb-0 OpenLayers
+                      p.mb-0.text-center OpenLayers
                 
               .col-lg-3
                 .jumbotron-2.p-3.mb-3
                   .row.align-items-center
-                    .col-lg-auto.mb-3.mb-lg-0
+                    .col-lg-auto
                       img.d-none.d-lg-flex(src="@/assets/curso/images/tema4/ico_fly.svg", style="max-width: 90px").mx-auto
                     .col-lg
-                      p.mb-0 Geocoder
+                      p.mb-0.text-center Geocoder
               .col-lg-3
                 .jumbotron-2.p-3.mb-3
                   .row.align-items-center
-                    .col-lg-auto.mb-3.mb-lg-0
+                    .col-lg-auto
                       img.d-none.d-lg-flex(src="@/assets/curso/images/tema4/ico_fly.svg", style="max-width: 90px").mx-auto
                     .col-lg
-                      p.mb-0 Geopy
+                      p.mb-0.text-center Geopy
               .col-lg-3
                 .jumbotron-2.p-3.mb-3
                   .row.align-items-center
-                    .col-lg-auto.mb-3.mb-lg-0
+                    .col-lg-auto
                       img.d-none.d-lg-flex(src="@/assets/curso/images/tema4/ico_fly.svg", style="max-width: 90px").mx-auto
                     .col-lg
-                      p.mb-0 GDAL
+                      p.mb-0.text-center GDAL
             
     
 
@@ -402,11 +402,11 @@
         .bloque-texto-a.color-custom-7.p-md-0.mb-5.d-block.d-lg-none
           .row.m-4.align-items-center.justify-content-between
             .col-lg-9(data-aos="fade-right")
-              .bloque-texto-a__texto.p-5.my-5
+              .bloque-texto-a__texto.p-3.p-md-5.my-5
                 p Se podría concluir, entonces, que una buena zonificación y ruta de ventas, necesita de un correcto diseño y conocimiento de la zona, ya sea municipal, departamental, nacional o incluso internacional, para ello la georreferenciación es la clave del inicio de una buena estrategia. 
             .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
               figure
-                img(src='@/assets/curso/images/tema4/img_22.png' alt='', style="width:400px; display:block; margin:-1rem 0 ;").mb-3
+                img(src='@/assets/curso/images/tema4/img_22.png' alt='', style="width:400px; display:block; margin:auto;").mb-3
 
     p.mb-0 Por lo anterior, el resultado se nota en un plan fácil de seguir con una ruta clara, que se evidencia en las direcciones de las primeras empresas o clientes con los cuales interactuar desde el principio hasta el final del día.
 

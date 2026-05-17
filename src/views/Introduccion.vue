@@ -25,11 +25,12 @@
           p.mb-0 No obstante, el mercado no solamente lo conforman las empresas, por lo que se debe hablar de dos tipos de clientes: 
 
       .col-lg-4(data-aos="fade-left") 
-        img.mt-3(src='@/assets/curso/images/tema1/intro/img_2.png'  alt='', style="width:400px; display:block; margin:auto 0 ;")
+        img.mt-3(src='@/assets/curso/images/tema1/intro/img_2.png'  alt='', style="width:400px; display:block; margin:auto;")
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8(data-aos="fade-down")
-        img(src="@/assets/curso/images/tema1/intro/img_3.svg")
+        img.d-none.d-md-block(src="@/assets/curso/images/tema1/intro/img_3.svg")
+        img.d-block.d-md-none(src="@/assets/curso/images/tema1/intro/img_3-1.svg")
 
     
     p.mb-3 De aquí parten las primeras necesidades, como el conocimiento de la cultura para determinar gustos y preferencias o como la ubicación geográfica para determinar qué tipo de empresa funcionaria o tendría éxito en esa zona.
@@ -42,8 +43,8 @@
       .col-lg-10(data-aos="zoom-in-down")
         .cajon.color-custom.p-4.mb-4.p-4
           .row.justify-content-around.align-items-center
-            .col-lg-2.col-sm-2
-              img.mx-3(src="@/assets/curso/images/tema1/intro/ico_1.svg",  alt='', style="width:90px; display:block; margin:auto 0 ;").mb-3
+            .col-lg-2.justify-content-center.align-items-center.d-flex
+              img.mx-3(src="@/assets/curso/images/tema1/intro/ico_1.svg",  alt='', style="width:90px; display:block; margin:auto;").mb-3
             .col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0

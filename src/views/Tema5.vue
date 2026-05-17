@@ -72,11 +72,11 @@
     .bloque-texto-a.color-custom-7.p-md-0.mb-5.d-block.d-lg-none
       .row.m-4.align-items-center.justify-content-between
         .col-lg-9(data-aos="fade-right")
-          .bloque-texto-a__texto.p-5.my-5
+          .bloque-texto-a__texto.p-3.p-md-5.my-5
             p En <i> marketing </i> es fundamental un plan de trabajo, por lo que es esencial que cualquier empresa trabaje en uno, de esa forma los objetivos como compañía son medibles y evaluables. De igual forma, si se habla de empresas mayoristas, estos planes son su base para el crecimiento y cumplimiento de requerimientos a los cuales van encaminados.
         .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
           figure
-            img(src='@/assets/curso/images/tema5/img_2.png' alt='', style="width:400px; display:block; margin:-1rem 0 ;")
+            img(src='@/assets/curso/images/tema5/img_2.png' alt='', style="width:400px; display:block; margin:auto;")
     
     Separador
 
@@ -84,7 +84,7 @@
       .h2 5.1. Metodología y aplicabilidad
     
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-6(data-aos="fade-right") 
+      .col-lg-6.mb-3.mb-lg-0(data-aos="fade-right") 
         p.mb-3 Cuando se menciona la metodología para un plan de trabajo en cuanto a las empresas que se dedican al comercio de productos mayoristas, esta describe y analiza problemas planteados por el sector basado en temas específicos como:
           ul.lista-ul--color.mt-3
             li.mb-4.d-flex
@@ -111,61 +111,61 @@
     .row.align-items-center.justify-content-center
       .col-lg-10
         PasosA.color-acento-contenido.my-5(tipo="n")
-          .row
-            .col-md-7.mb-4.mb-md-0
+          .row.align-items-center.justify-content-center
+            .col-lg-7.mb-4.mb-lg-0
               h3 La identificación de un problema
               p - La empresa desea incrementar sus ventas.
               p - Un plan de acción por un factor político o social que la está afectando. 
               p - Lanzamiento de un nuevo producto o servicio.
-            .col-md-5
+            .col-md-8.col-lg-5
               figure
                 img(src='@/assets/curso/images/tema5/img_4.svg', alt='Texto que describa la imagen')
 
 
-          .row
-            .col-md-5
+          .row.align-items-center.justify-content-center
+            .col-md-8.col-lg-5
               figure
                 img.mb-3(src='@/assets/curso/images/tema5/img_5.svg', alt='Texto que describa la imagen')
 
-            .col-md-7.mb-4.mb-md-0
+            .col-lg-7.mb-4.mb-lg-0
               h3 Planear los objetivos
               p.mb-3  Definir qué se busca cumplir en el plan de trabajo, va de la mano con la identificación del problema, por ejemplo:
               p.mb-0  “Se necesitan incrementar los ingresos, como objetivo se vería reflejado el incremento de los ingresos dentro de un nivel alcanzable”.
               
 
-          .row
-            .col-md-7.mb-4.mb-md-0
+          .row.align-items-center.justify-content-center
+            .col-lg-7.mb-4.mb-lg-0
               h3 Definir un grupo de estudio
               p Investigar el sector al que se apunta, la población meta de la empresa.
           
-            .col-md-5
+            .col-md-8.col-lg-5
               figure
                 img(src='@/assets/curso/images/tema5/img_6.png', alt='Texto que describa la imagen')
 
 
-          .row
-            .col-md-5
+          .row.align-items-center.justify-content-center
+            .col-md-8.col-lg-5
               figure
                 img.mb-3(src='@/assets/curso/images/tema5/img_7.svg', alt='Texto que describa la imagen')
-            .col-md-7.mb-4.mb-md-0
+            .col-lg-7.mb-4.mb-lg-0
               h3 Definir el equipo y presupuesto
               p Establecer el presupuesto que se dispondrá para la realización del plan de trabajo.
           
 
-          .row
-            .col-md-7.mb-4.mb-md-0
+          .row.align-items-center.justify-content-center
+            .col-lg-7.mb-4.mb-lg-0
               h3 Crear de un plan de <i> marketing </i>
               p Este debe generar confianza y cercanía para que el plan de trabajo tenga garantías y se acerque al éxito, que sería medible en cuanto al cumplimiento de los objetivos.
-            .col-md-5
+            .col-md-8.col-lg-5
               figure
                 img(src='@/assets/curso/images/tema5/img_8.png', alt='Texto que describa la imagen')
     
 
-          .row
-            .col-md-5
+          .row.align-items-center.justify-content-center
+            .col-md-8.col-lg-5
               figure
                 img.mb-3(src='@/assets/curso/images/tema5/img_9.png', alt='Texto que describa la imagen')
-            .col-md-7.mb-4.mb-md-0
+            .col-lg-7.mb-4.mb-lg-0
               h3 Realizar control, hacer retroalimentación y definir resultados esperados
               p Donde se evidencie la manera en que será controlado y verificado el plan de trabajo, además de realizar los cambios pertinentes en el momento que se requieran, mientras se están ejecutando para reportar los resultados y novedades que aparezcan dentro y al final de la ejecución del mismo.
 
@@ -212,23 +212,31 @@
   
     p.mb-5 En el siguiente recurso se podrán analizar estos dos términos y su uso en las organizaciones:
 
+    .row.mb-5.justify-content-center
+      .col-sm-6.col-lg-6.mb-4.mb-lg-0(data-aos="fade-up")
+        .tarjeta--boton.jumbotron-3.h-100.p-4
+          .row.justify-content-center.mb-3
+            .col-4
+              figure
+                img(src='@/assets/curso/images/tema5/ico_2.svg', alt='Texto que describa la imagen')
+    
+          h3.mb-4.text-center Estudio de tiempos
+          p.text-center Entendiéndose como la técnica que medirá el tiempo empleado en el trabajo o las actividades que se realicen para una tarea definida en condiciones normales, teniendo como fin el análisis de datos logrando calcular el tiempo real requerido para cada tarea específica.
+    
+      .col-sm-6.col-lg-6.mb-4.mb-lg-0(data-aos="fade-down")
+        .tarjeta--boton.jumbotron-4.h-100.p-4
+          .row.justify-content-center.mb-3
+            .col-4
+              figure
+                img(src='@/assets/curso/images/tema5/ico_3.svg', alt='Texto que describa la imagen')
+    
+          h3.mb-4.text-center Estudio de movimientos
+          p.text-center También se le conoce como estudio de métodos de una tarea, este analiza desde el tipo de trabajo que se realizará,  como los procesos y las necesidades para llevarlos a cabo en cada área. 
+          p.mb-0.text-center Su objetivo central es encontrar la eficiencia en los procesos eliminando las tareas o actividades innecesarias o que ralentice la compañía en su necesidad de suplir las demandas del mercado.
+      
+ 
 
-    .row.justify-content-center.align-items-center.my-5
-      .col-lg-6
-        .jumbotron-3.tarjeta.p-5(data-aos="fade-right")
-          .row.justify-content-center.align-items-center
-            img.mb-5(src="@/assets/curso/images/tema5/ico_2.svg" alt='', style="width:100px; display:block; margin:auto 0 ;")
-            h3.text-center Estudio de tiempos
-            p.mb-5 Entendiéndose como la técnica que medirá el tiempo empleado en el trabajo o las actividades que se realicen para una tarea definida en condiciones normales, teniendo como fin el análisis de datos logrando calcular el tiempo real requerido para cada tarea específica.
-
-      .col-lg-6
-        .jumbotron-4.tarjeta.p-5(data-aos="fade-left")
-          .row.justify-content-center.align-items-center
-            img.mb-3(src="@/assets/curso/images/tema5/ico_3.svg" alt='', style="width:100px; display:block; margin:auto 0 ;")
-            h3.text-center  Estudio de movimientos
-            p.mb-3 También se le conoce como estudio de métodos de una tarea, este analiza desde el tipo de trabajo que se realizará,  como los procesos y las necesidades para llevarlos a cabo en cada área. 
-            p.mb-3 Su objetivo central es encontrar la eficiencia en los procesos eliminando las tareas o actividades innecesarias o que ralentice la compañía en su necesidad de suplir las demandas del mercado.
-
+    
 
 
 

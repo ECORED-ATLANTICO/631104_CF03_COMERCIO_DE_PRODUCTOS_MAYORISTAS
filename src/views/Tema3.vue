@@ -27,7 +27,7 @@
                 .jumbotron-2.p-3.mb-3
                   .row.align-items-center
                     .col-lg-auto.mb-3.mb-lg-0
-                      img.d-none.d-lg-flex(src="@/assets/curso/images/tema3/ico_1.svg", style="max-width: 90px").mx-auto
+                      img(src="@/assets/curso/images/tema3/ico_1.svg", style="max-width: 90px").mx-auto
                     .col-lg
                       p.mb-0 Recursos humanos
                 
@@ -35,14 +35,14 @@
                 .jumbotron-2.p-3.mb-3
                   .row.align-items-center
                     .col-lg-auto.mb-3.mb-lg-0
-                      img.d-none.d-lg-flex(src="@/assets/curso/images/tema3/ico_2.svg", style="max-width: 90px").mx-auto
+                      img(src="@/assets/curso/images/tema3/ico_2.svg", style="max-width: 90px").mx-auto
                     .col-lg
                       p.mb-0 Financieros
               .col-lg-4
                 .jumbotron-2.p-3.mb-3
                   .row.align-items-center
                     .col-lg-auto.mb-3.mb-lg-0
-                      img.d-none.d-lg-flex(src="@/assets/curso/images/tema3/ico_3.svg", style="max-width: 90px").mx-auto
+                      img(src="@/assets/curso/images/tema3/ico_3.svg", style="max-width: 90px").mx-auto
                     .col-lg
                       p.mb-0 Materiales
             .row.justify-content-center.align-items-center
@@ -50,14 +50,14 @@
                 .jumbotron-2.p-3.mb-3
                   .row.align-items-center
                     .col-lg-auto.mb-3.mb-lg-0
-                      img.d-none.d-lg-flex(src="@/assets/curso/images/tema3/ico_4.svg", style="max-width: 90px").mx-auto
+                      img(src="@/assets/curso/images/tema3/ico_4.svg", style="max-width: 90px").mx-auto
                     .col-lg
                       p.mb-0 Tecnológicos
               .col-lg-4
                 .jumbotron-2.p-3.mb-3
                   .row.align-items-center
                     .col-lg-auto.mb-3.mb-lg-0
-                      img.d-none.d-lg-flex(src="@/assets/curso/images/tema3/ico_5.svg", style="max-width: 90px").mx-auto
+                      img(src="@/assets/curso/images/tema3/ico_5.svg", style="max-width: 90px").mx-auto
                     .col-lg
                       p.mb-0 Intangibles
     
@@ -82,7 +82,7 @@
                 .jumbotron-2.p-3.mb-3
                   .row.align-items-center
                     .col-lg-auto.mb-3.mb-lg-0
-                      img.d-none.d-lg-flex(src="@/assets/curso/images/tema3/ico_6.svg", style="max-width: 90px").mx-auto
+                      img(src="@/assets/curso/images/tema3/ico_6.svg", style="max-width: 90px").mx-auto
                     .col-lg
                       p.mb-0 Clientes
                 
@@ -90,14 +90,14 @@
                 .jumbotron-2.p-3.mb-3
                   .row.align-items-center
                     .col-lg-auto.mb-3.mb-lg-0
-                      img.d-none.d-lg-flex(src="@/assets/curso/images/tema3/ico_7.svg", style="max-width: 90px").mx-auto
+                      img(src="@/assets/curso/images/tema3/ico_7.svg", style="max-width: 90px").mx-auto
                     .col-lg
                       p.mb-0 Proveedores
               .col-lg-4
                 .jumbotron-2.p-3.mb-3
                   .row.align-items-center
                     .col-lg-auto.mb-3.mb-lg-0
-                      img.d-none.d-lg-flex(src="@/assets/curso/images/tema3/ico_8.svg", style="max-width: 90px").mx-auto
+                      img(src="@/assets/curso/images/tema3/ico_8.svg", style="max-width: 90px").mx-auto
                     .col-lg
                       p.mb-0 Inventarios
             .row.justify-content-center.align-items-center
@@ -105,23 +105,23 @@
                 .jumbotron-2.p-3.mb-3
                   .row.align-items-center
                     .col-lg-auto.mb-3.mb-lg-0
-                      img.d-none.d-lg-flex(src="@/assets/curso/images/tema3/ico_9.svg", style="max-width: 90px").mx-auto
+                      img(src="@/assets/curso/images/tema3/ico_9.svg", style="max-width: 90px").mx-auto
                     .col-lg
                       p.mb-0 Ventas
               .col-lg-4
                 .jumbotron-2.p-3.mb-3
                   .row.align-items-center
                     .col-lg-auto.mb-3.mb-lg-0
-                      img.d-none.d-lg-flex(src="@/assets/curso/images/tema3/ico_10.svg", style="max-width: 90px").mx-auto
+                      img(src="@/assets/curso/images/tema3/ico_10.svg", style="max-width: 90px").mx-auto
                     .col-lg
                       p.mb-0 Competencias
             .row.justify-content-center.align-items-center
-              .col-8.col-md-10.mb-3.mb-md-0
-                .jumbotron-5.p-2(data-aos="zoom-in-down")    
+              .col-lg-10.mb-3.mb-md-0
+                .jumbotron-5.p-2   
                   .row.justify-content-center.align-items-center.p-2
-                    .col-md-1.mb-3.mb-md-0
-                      img(src="@/assets/curso/images/tema3/ico.svg" alt='', style="width:40px")
-                    .col-md-11.mb-3.mb-md-0
+                    .col-lg-1.mb-3.mb-lg-0
+                      img(src="@/assets/curso/images/tema3/ico.svg" alt='', style="width:90px").mx-auto
+                    .col-lg-11
                       p.mb-0 Contabilidad, entre muchos otros y cada una de estas categorías encierra miles de datos.
                 
 
@@ -138,9 +138,9 @@
         img(src='@/assets/curso/images/tema3/img_3.png')
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-6(data-aos="fade-left") 
+      .col-lg-6.order-2.order-lg-1(data-aos="fade-left") 
         img.mb-3(src='@/assets/curso/images/tema3/img_4.png')
-      .col-lg-6(data-aos="fade-right") 
+      .col-lg-6.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-right") 
         p.mb-3 A nivel nacional se observa que las empresas tienen una gran necesidad de gestionar mejor su información; sin embargo, en este caso centraremos el documento en los comercios mayoristas por lo que se presentará información y conceptualización básica en esta área con el fin de entender:
 
         ul.lista-ul--color
@@ -183,84 +183,84 @@
     .row.align-items-center.justify-content-center
       .col-lg-10
         PasosA.color-acento-contenido.my-5(tipo="n")
-          .row
-            .col-md-7.mb-4.mb-md-0
+          .row.align-items-center.justify-content-center
+            .col-lg-7.mb-4.mb-lg-0
               h3 Entrada
               p Consiste en la recopilación de los datos y el ingreso de estos a la herramienta seleccionada para su procesamiento.
-            .col-md-4
+            .col-md-8.col-lg-4
               figure
                 img(src='@/assets/curso/images/tema3/img_6.png', alt='Texto que describa la imagen')
 
 
-          .row
-            .col-md-4
+          .row.align-items-center.justify-content-center
+            .col-md-8.col-lg-4
               figure
                 img.mb-3(src='@/assets/curso/images/tema3/img_7.png', alt='Texto que describa la imagen')
 
-            .col-md-7.mb-4.mb-md-0
+            .col-lg-7.mb-4.mb-lg-0
               h3 Proceso
               p Es la ejecución de las operaciones por medio de las cuales los datos se convierten en información valiosa. Algunas de estas operaciones pueden ser: validación, clasificación, agrupación, cálculos y síntesis de datos, entre otros.
               
 
-          .row
-            .col-md-7.mb-4.mb-md-0
+          .row.align-items-center.justify-content-center
+            .col-lg-7.mb-4.mb-lg-0
               h3 Validación
               p Permite limitar las entradas de datos para asegurar que estos cumplan con determinadas especificaciones, como: límites de números en rangos específicos, limitar fechas y horas en un periodo de tiempo determinado, limitar el número de caracteres de un texto. Ejemplo: validar que los datos ingresados estén en un rango de 0 a 100.
           
-            .col-md-4
+            .col-md-8.col-lg-4
               figure
                 img(src='@/assets/curso/images/tema3/img_8.png', alt='Texto que describa la imagen')
 
 
-          .row
-            .col-md-4
+          .row.align-items-center.justify-content-center
+            .col-md-8.col-lg-4
               figure
                 img.mb-3(src='@/assets/curso/images/tema3/img_9.png', alt='Texto que describa la imagen')
-            .col-md-7.mb-4.mb-md-0
+            .col-lg-7.mb-4.mb-lg-0
               h3 Clasificación
               p Consiste en ordenar los datos de acuerdo a alguno de sus atributos. Por ejemplo, ordenar alfabéticamente los apellidos, ordenar la información de acuerdo con el nivel de ventas y de menor a mayor.
           
 
-          .row
-            .col-md-7.mb-4.mb-md-0
+          .row.align-items-center.justify-content-center
+            .col-lg-7.mb-4.mb-lg-0
               h3 Agrupación
               p Aquí se agrupan los datos por categorías, como producto, lugar de residencia y edades, etc.
-            .col-md-4
+            .col-md-8.col-lg-4
               figure
                 img(src='@/assets/curso/images/tema3/img_10.png', alt='Texto que describa la imagen')
     
 
-          .row
-            .col-md-4
+          .row.align-items-center.justify-content-center
+            .col-md-8.col-lg-4
               figure
                 img.mb-3(src='@/assets/curso/images/tema3/img_11.png', alt='Texto que describa la imagen')
-            .col-md-7.mb-4.mb-md-0
+            .col-lg-7.mb-4.mb-lg-0
               h3 Cálculos
               p Se refiere a las operaciones matemáticas o lógicas que se deben realizar con los datos para obtener determinados resultados, como: operaciones (suma, resta, multiplicación, división).
           
             
-          .row
-            .col-md-7.mb-4.mb-md-0
+          .row.align-items-center.justify-content-center
+            .col-lg-7.mb-4.mb-lg-0
               h3 Síntesis de datos
               p Se trata de convertir gran cantidad de datos en una más pequeña y de más fácil comprensión e interpretación.
-            .col-md-4
+            .col-md-8.col-lg-4
               figure
                 img(src='@/assets/curso/images/tema3/img_12.png', alt='Texto que describa la imagen')
 
       
-          .row
-            .col-md-4
+          .row.align-items-center.justify-content-center
+            .col-md-8.col-lg-4
               figure
                 img.mb-3(src='@/assets/curso/images/tema3/img_13.png', alt='Texto que describa la imagen')
-            .col-md-7.mb-4.mb-md-0
+            .col-lg-7.mb-4.mb-lg-0
               h3 Salida
               p Es la información obtenida al terminar el proceso de procesamiento de datos.
 
-          .row
-            .col-md-7.mb-4.mb-md-0
+          .row.align-items-center.justify-content-center
+            .col-lg-7.mb-4.mb-lg-0
               h3 Evaluación de resultados
               p Es el análisis de la información obtenida que lleve a la mejora en la toma de decisiones.
-            .col-md-4
+            .col-md-8.col-lg-4
               figure
                 img(src='@/assets/curso/images/tema3/img_14.png', alt='Texto que describa la imagen')
 
@@ -282,13 +282,13 @@
             p.mb-3 Las empresas mayoristas tienen una necesidad y es la recolección de la información para no andar a ciegas frente al sector de mercado al cual pertenecen; por lo tanto, cuando procesan los datos obtenidos para responder la demanda de su mercado, además de una constante actualización, deben de aplicar diversas técnicas de procesamiento, de acuerdo a su sector, tecnología y recursos que posea. Estas técnicas son las siguientes:
 
         .bloque-texto-a.color-custom-7.p-md-0.mb-5.d-block.d-lg-none
-          .row.m-4.align-items-center.justify-content-between
+          .row.m-4.align-items-center.justify-content-center
             .col-lg-9(data-aos="fade-right")
-              .bloque-texto-a__texto.p-5.my-5
+              .bloque-texto-a__texto.p-3.p-md-5.my-5
                 p Las empresas mayoristas tienen una necesidad y es la recolección de la información para no andar a ciegas frente al sector de mercado al cual pertenecen; por lo tanto, cuando procesan los datos obtenidos para responder la demanda de su mercado, además de una constante actualización, deben de aplicar diversas técnicas de procesamiento, de acuerdo a su sector, tecnología y recursos que posea. Estas técnicas son las siguientes:
             .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
               figure
-                img(src='@/assets/curso/images/tema3/img_15.png' alt='', style="width:400px; display:block; margin:-1rem 0 ;").mb-3
+                img(src='@/assets/curso/images/tema3/img_15.png' alt='', style="width:400px; display:block; margin:auto;").mb-3
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-up").bgr_5
       div(titulo="Procesamiento manual de datos")
@@ -329,14 +329,14 @@
       .h2 3.2 Reportes
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-6(data-aos="fade-right") 
+      .col-lg-6.order-2.orcer-lg-1(data-aos="fade-right") 
         p.mb-3 Mediante el procesamiento de datos se obtiene información valiosa, que al ser analizada permite optimizar los procesos de toma de decisiones en los establecimientos. Es necesario que la información y los resultados obtenidos sean organizados y estructurados como informes o reportes, que den cuenta del proceso realizado y de los resultados obtenidos. 
 
         p.mb-3 La finalidad de los reportes es que la información obtenida pueda ser accesible, compartida y útil para todas las personas de la empresa, de modo que sirva como punto de partida para determinar el rumbo, las decisiones o estrategias a seguir. Para esto, es necesario que sean <b> claros, concisos, fáciles de entender;</b> pero sobre todo útiles y precisos.
 
         p.mb-0 Para realizar un reporte es necesario que se incluyan las siguientes partes:
 
-      .col-lg-6(data-aos="fade-left") 
+      .col-lg-6.order-1.orcer-lg-2.mb-3.mb-lg-0(data-aos="fade-left") 
         img.mt-3(src='@/assets/curso/images/tema3/img_19.png')
 
 
@@ -380,13 +380,13 @@
     p.mb-5 Aquí es clave mencionar que cada empresa maneja sus propios formatos para realizar un reporte con información requerida por ellas; aun así, se tiene una estructura básica cumpliendo con las partes solicitadas, las cuales se pueden apreciar como en la figura a continuación:
   
 
-    .row.justify-content-center.p-5
+    .row.justify-content-center.p-lg-5
       .col-lg-12
         .titulo-sexto.color-acento-contenido
           p <b>Figura 2.</b> Reporte de actividades
 
         .row.align-items-center.justify-content-center.mb-5
-          .col-lg-6(data-aos="fade-left") 
+          .col-lg-6.mb-3(data-aos="fade-left") 
             img.mb-1(src='@/assets/curso/images/tema3/info.svg', alt='En el ejemplo de reporte de actividades se detalla la información del empleado, tareas completadas, tareas en curso y tareas para la próxima semana. ')
             figcaption Nota. SENA, (2026).
           .col-lg-6(data-aos="fade-right") 
@@ -429,57 +429,70 @@
     .bloque-texto-a.color-custom-7.p-md-0.mb-5.d-block.d-lg-none
       .row.m-4.align-items-center.justify-content-between
         .col-lg-9(data-aos="fade-right")
-          .bloque-texto-a__texto.p-5.my-5
+          .bloque-texto-a__texto.p-3.p-md-5.my-5
             p Los ficheros son conjuntos de información relacionada que están almacenados en un sistema electrónico y que son referenciados por un nombre, son usados para que los usuarios puedan gestionar datos que no se pueden hacer de forma manual. Están conformados por varios programas que les permiten a ellos definir y manejar o administrar dicho conjunto de datos. Como ejemplos de ficheros de un comercio se tienen: 
         .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
           figure
-            img(src='@/assets/curso/images/tema3/img_20.png' alt='', style="width:400px; display:block; margin:-1rem 0 ;").mb-3
+            img(src='@/assets/curso/images/tema3/img_20.png' alt='', style="width:400px; display:block; margin:auto;").mb-3
 
-    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-up")
-      .col-12.col-md-3.mb-3.mb-md-0
-        div.bgr_1.p-5
-          .row.align-items-center.justify-content-center.mb-4  
-            img.img120(src="@/assets/curso/images/tema3/ico_12.png" alt='', style="width:200px; display:block; margin:auto 0 ;")
-            h3.text-center.mt-4 Los que contienen la información de los clientes
-          p.mb-4.text-center En ellos se almacenan datos como nombre, dirección, teléfono, direcciones de envío, código de cliente, datos de facturación, etc.
-      .col-12.col-md-3.mb-3.mb-md-0
-        div.bgr_2.p-5
-          .row.align-items-center.justify-content-center.mb-4      
-            img.img120(src="@/assets/curso/images/tema3/ico_13.png" alt='', style="width:200px; display:block; margin:auto 0 ;")
-            h3.text-center.mt-5 Los  que tienen datos de los proveedores
-          p.mb-5.text-center Este fichero maneja la siguiente información: nombre, código de proveedor, NIT, dirección, datos de pago, etc.
-      .col-12.col-md-3.mb-3.mb-md-0
-        div.bgr_1.p-5
-          .row.align-items-center.justify-content-center.mb-4         
-            img.img120(src="@/assets/curso/images/tema3/ico_14.png" alt='', style="width:200px; display:block; margin:auto 0 ;")
-            h3.text-center.mt-4 Los que manejan información sobre los productos
-          p.mb-3.text-center Aquí se almacena la información exclusiva del producto: código del producto, costo, precio de venta, fecha de vencimiento, etc.
+    .row.mb-5.justify-content-center
+      .col-md-6.col-lg-4.col-xl-3.mb-4.mb-lg-0(data-aos="fade-up")
+        .tarjeta--boton.bgr_1.h-100.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/images/tema3/ico_12.png', alt='Texto que describa la imagen')
+    
+          h3.mb-4.text-center Los que contienen la información de los clientes
+          p.text-center En ellos se almacenan datos como nombre, dirección, teléfono, direcciones de envío, código de cliente, datos de facturación, etc.
+    
+      .col-md-6.col-lg-4.col-xl-3.mb-4.mb-lg-0(data-aos="fade-down")
+        .tarjeta--boton.bgr_2.h-100.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/images/tema3/ico_13.png', alt='Texto que describa la imagen')
+    
+          h3.mb-4.text-center Los  que tienen datos de los proveedores
+          p.text-center Este fichero maneja la siguiente información: nombre, código de proveedor, NIT, dirección, datos de pago, etc.
+      
+      .col-md-6.col-lg-4.col-xl-3.mb-4.mb-lg-0(data-aos="fade-up")
+        .tarjeta--boton.bgr_1.h-100.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/images/tema3/ico_14.png', alt='Texto que describa la imagen')
+    
+          h3.mb-4.text-center Los que manejan información sobre los productos
+          p.text-center Aquí se almacena la información exclusiva del producto: código del producto, costo, precio de venta, fecha de vencimiento, etc.
+
+    
 
     p.mb-5 Por otro lado, es de vital importancia que conozca cuáles son algunas de las operaciones más comunes con ficheros se pueden encontrar en un comercio:
 
     .row.justify-content-center.mb-5
-      .col-lg-3.col-auto.mb-3.mb-lg-0(data-aos="fade")
+      .col-md-6.col-xl-3.col-auto.mb-3.mb-xl-0(data-aos="fade")
         .tarjeta-numerada.color-acento-contenido.h-100.p-5.mx-3
           .tarjeta-numerada__numero
             .h2 1
           h3 Creación
           p.mb-0 Es la operación mediante la cual se crea el fichero, se debe realizar su diseño con base en las características de los datos que se van a almacenar.
 
-      .col-lg-3.col-auto.mb-3.mb-lg-0(data-aos="fade")
+      .col-md-6.col-xl-3.col-auto.mb-3.mb-xl-0(data-aos="fade")
         .tarjeta-numerada.color-acento-contenido-1.h-100.p-5.mx-3
           .tarjeta-numerada__numero.color-custom-6
             .h2.text-white 2
           h3 Consulta
           p.mb-4 Se realiza para conocer los registros almacenados en el fichero.
 
-      .col-lg-3.col-auto.mb-3.mb-lg-0(data-aos="fade")
+      .col-md-6.col-xl-3.col-auto.mb-3.mb-xl-0(data-aos="fade")
         .tarjeta-numerada.color-primario.h-100.p-5.mx-3
           .tarjeta-numerada__numero
             .h2 3
           h3 Actualización
           p.mb-1 Se pueden insertar nuevos registros, modificarlos o eliminarlos.
   
-      .col-lg-3.col-auto.mb-3.mb-lg-0(data-aos="fade")
+      .col-md-6.col-xl-3.col-auto.mb-3.mb-xl-0(data-aos="fade")
         .tarjeta-numerada.color-acento-botones.h-100.p-5.mb-3
           .tarjeta-numerada__numero
             .h2 4
@@ -507,9 +520,9 @@
         img(src='@/assets/curso/images/tema3/img_21.png')
         
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-6(data-aos="fade-left") 
+      .col-lg-6.order-2.order-lg-1(data-aos="fade-left") 
         img.mb-3(src='@/assets/curso/images/tema3/img_22.png')
-      .col-lg-6(data-aos="fade-right") 
+      .col-lg-6.order-1.order-lg-2(data-aos="fade-right") 
         p.mb-3 Si bien los ficheros representaron un gran avance para el procesamiento de datos, también mostraron grandes inconvenientes para los usuarios, ya que:
           ul.lista-ul--color.mt-3
             li.mb-4.d-flex
@@ -542,11 +555,11 @@
         .bloque-texto-a.color-custom-7.p-md-0.mb-5.d-block.d-lg-none
           .row.m-4.align-items-center.justify-content-between
             .col-lg-9(data-aos="fade-right")
-              .bloque-texto-a__texto.p-5.my-5
+              .bloque-texto-a__texto.p-3.p-md-5.my-5
                 p El entorno económico y el mercado cambiante al cual están sometidas las empresas que se dedican al comercio de productos mayoristas es demasiado volátil y cambiante, esto conlleva a que constantemente estén actualizándose y absorbiendo grandes cantidades de información que deben procesar para estar a la vanguardia y ser competitivas en su sector a nivel nacional e internacional.
             .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
               figure
-                img(src='@/assets/curso/images/tema3/img_23.png' alt='', style="width:400px; display:block; margin:-1rem 0 ;").mb-3
+                img(src='@/assets/curso/images/tema3/img_23.png' alt='', style="width:400px; display:block; margin:auto;").mb-3
 
     p.mb-3 Es aquí donde juega un papel importante esta conformación de bases de datos, de clientes, de proveedores, de industrias aliadas y de toda aquella información pertinente que permitirá crecer y encontrar respuesta para brindar un producto o servicio de valor.
 
@@ -588,7 +601,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/12.svg")
         h3.titulo-con-imagen__texto Base de datos relacionales
 
-    p.mb-3 Las bases de datos relacionales se basan en el concepto de relación o tabla. Es decir, la información se organizará y se almacenará en forma de tablas que contendrán los datos relacionados con un tema y solo con ese tema (por ejemplo, tabla de clientes o de proveedores, etc.). Las tablas están formadas por filas y columnas, de forma que cada una de las filas se corresponderá con un registro de información sobre un elemento de esa tabla y cada columna con una característica a almacenar sobre dichos elementos.
+    p.mb-5 Las bases de datos relacionales se basan en el concepto de relación o tabla. Es decir, la información se organizará y se almacenará en forma de tablas que contendrán los datos relacionados con un tema y solo con ese tema (por ejemplo, tabla de clientes o de proveedores, etc.). Las tablas están formadas por filas y columnas, de forma que cada una de las filas se corresponderá con un registro de información sobre un elemento de esa tabla y cada columna con una característica a almacenar sobre dichos elementos.
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -634,7 +647,7 @@
       span Base de datos clientes
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-6(data-aos="fade-left") 
+      .col-lg-6.mb-3(data-aos="fade-left") 
         img.mb-1(src='@/assets/curso/images/tema3/info_2.svg', alt='En la figura Base de datos de clientes contiene varios campos, como nombre, cédula, teléfono, dirección, compras por periodo, productos con mayor demanda por el cliente, registro de PQRS.')
         figcaption Nota. SENA, (2026).
       .col-lg-6(data-aos="fade-right") 
@@ -655,22 +668,22 @@
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Asociación (1:1)" :icono="require('@/assets/curso/images/tema3/ico_17.svg')")
         .row.justify-content-center.align-items-center
-          .col-lg-7.mb-4.mb-md-0
+          .col-lg-7.mb-4.mb-lg-0
             h3 Asociación (1:1)
             p.mb-3 Es el tipo de relación en la que a cada registro de la tabla está relacionado solo con 1 registro de otra tabla. 
             p.mb-0 Por ejemplo, en una tabla de productos y en una tabla de proveedores, encontramos que la relación es 1:1, porque cada producto solo puede ser suministrado por un proveedor (asumiendo que cada proveedor distribuya solo un tipo de producto).
         
-          .col-lg-4.mb-4.mb-md-0
+          .col-lg-4.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/images/tema3/img_25.svg', alt='Texto que describa la imagen')
 
       .py-4.py-md-5(titulo="Asociación de uno a varios" :icono="require('@/assets/curso/images/tema3/ico_18.svg')")
         .row.justify-content-center.align-items-center
-          .col-lg-6
+          .col-lg-6.mb-4.mb-lg-0
             h3 Asociación de uno a varios
             p.mb-3 En este tipo de relación encontramos que cada registro de una tabla puede relacionarse con varios registros de otra tabla.
             p.mb-0 Por ejemplo, si se tiene una tabla con la información de los clientes y otra con la información de los pedidos, puede haber una relación de uno a varios, ya que un cliente puede realizar varios pedidos y cada pedido puede corresponder solo a un cliente.
-          .col-lg-5.mb-4.mb-md-0
+          .col-lg-5.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/images/tema3/img_26.png', alt='Texto que describa la imagen')
 

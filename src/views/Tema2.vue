@@ -154,8 +154,11 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 1.
           span Tipos de clientes
-        img.mb-1(src='@/assets/curso/images/tema2/info_1.png', alt='Se explica los clientes mayoristas (personas jurídicas y físicas) al por mayor (clientes internos y externos)')
+        img.mb-2.d-none.d-sm-block(src='@/assets/curso/images/tema2/info.png', alt='Se detalla los tipos de clientes:')
+        img.mb-2.d-sm-none(src='@/assets/curso/images/tema2/info1.png', alt='Clientes internos y clientes externos; tienen el mismo objetivo común, pero características y enfoques diferentes.')
         figcaption Nota. SENA, (2026).
+  
+  
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-3
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
@@ -176,7 +179,7 @@
     .row.align-items-center.align-items-center.my-5
       .col-lg-12
         TabsA.color-acento-contenido(data-aos="fade")
-          .tarjeta.back-tab.px-5.py-4(titulo="Productos accesibles")
+          .tarjeta.back-tab.p-3.px-md-5.py-md-4(titulo="Productos accesibles")
             .row.px-2.py-2.justify-content-center.align-items-star
               .col-lg-6
                 h3 Productos accesibles
@@ -185,7 +188,7 @@
                 img(src="@/assets/curso/images/tema2/img_9.png")
               
 
-          .tarjeta.back-tab.px-5.py-4(titulo="Productos funcionales y eficientes")
+          .tarjeta.back-tab.p-3.px-md-5.py-md-4(titulo="Productos funcionales y eficientes")
             .row.px-2.py-2.justify-content-center.align-items-star
               .col-lg-6
                 h3 Productos funcionales y eficientes
@@ -195,7 +198,7 @@
               
               
   
-          .tarjeta.back-tab.px-5.py-4(titulo="Productos compatibles")
+          .tarjeta.back-tab.p-3.px-md-5.py-md-4(titulo="Productos compatibles")
             .row.px-2.py-2.justify-content-center.align-items-star
               .col-lg-6
                 h3 Productos compatibles
@@ -214,21 +217,21 @@
                 .jumbotron-2.p-4.mb-3(data-aos="zoom-in-down")    
                   .row.justify-content-center.align-items-center
                     .col-6.col-lg-3.mb-4.mb-lg-0
-                      img(src="@/assets/curso/images/tema2/ico_6.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
+                      img(src="@/assets/curso/images/tema2/ico_6.svg",  alt='', style="width:100px; display:block; margin:auto;")
                     .col-lg-9
                       p.mb-0  Los cambios en las situaciones del sujeto.
               .col-lg-4
                 .jumbotron-2.p-4.mb-3(data-aos="zoom-in-down")    
                   .row.justify-content-center.align-items-center
                     .col-6.col-lg-3.mb-4.mb-lg-0
-                      img(src="@/assets/curso/images/tema2/ico_7.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
+                      img(src="@/assets/curso/images/tema2/ico_7.svg",  alt='', style="width:100px; display:block; margin:auto;")
                     .col-lg-9
                       p.mb-0 Los factores sociales.
               .col-lg-4
                 .jumbotron-2.p-2.mb-3(data-aos="zoom-in-down")    
                   .row.justify-content-center.align-items-center
                     .col-6.col-lg-3.mb-4.mb-lg-0
-                      img(src="@/assets/curso/images/tema2/ico_8.svg",  alt='', style="width:120px; display:block; margin:auto 0 ;")
+                      img(src="@/assets/curso/images/tema2/ico_8.svg",  alt='', style="width:120px; display:block; margin:auto;")
                     .col-lg-9
                       p.mb-0 La aparición de nuevos productos o modificaciones en los existentes.
 
@@ -267,21 +270,21 @@
                 .jumbotron-2.p-3.mb-3(data-aos="zoom-in-down")    
                   .row.justify-content-center.align-items-center
                     .col-6.col-lg-3.mb-4.mb-lg-0
-                      img(src="@/assets/curso/images/tema2/ico_11.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
+                      img(src="@/assets/curso/images/tema2/ico_11.svg",  alt='', style="width:100px; display:block; margin:auto;")
                     .col-lg-9
                       p.mb-0  La encuesta.
               .col-lg-4
                 .jumbotron-2.p-3.mb-3(data-aos="zoom-in-down")    
                   .row.justify-content-center.align-items-center
                     .col-6.col-lg-3.mb-4.mb-lg-0
-                      img(src="@/assets/curso/images/tema2/ico_12.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
+                      img(src="@/assets/curso/images/tema2/ico_12.svg",  alt='', style="width:100px; display:block; margin:auto;")
                     .col-lg-9
                       p.mb-0 La observación directa de un fenómeno determinado.
               .col-lg-4
                 .jumbotron-2.p-3.mb-3(data-aos="zoom-in-down")    
                   .row.justify-content-center.align-items-center
                     .col-6.col-lg-3.mb-4.mb-lg-0
-                      img(src="@/assets/curso/images/tema2/ico_13.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
+                      img(src="@/assets/curso/images/tema2/ico_13.svg",  alt='', style="width:100px; display:block; margin:auto;")
                     .col-lg-9
                       p.mb-0 La entrevista personal.
 
@@ -363,7 +366,7 @@
     .row.align-items-center.align-items-center.my-5
       .col-lg-12
         TabsA.color-acento-contenido(data-aos="fade")
-          .tarjeta.back-tab.px-5.py-4(titulo="<i>Software</i>")
+          .tarjeta.back-tab.p-3.px-md-5.py-md-4(titulo="<i>Software</i>")
             .row.px-2.py-2.justify-content-center
               .col-lg-6
                 h3 <i>Software</i>
@@ -372,7 +375,7 @@
                 img.mt-4(src="@/assets/curso/images/tema2/img_14.svg")
               
 
-          .tarjeta.back-tab.px-5.py-4(titulo="CRM")
+          .tarjeta.back-tab.p-3.px-md-5.py-md-4(titulo="CRM")
             .row.px-2.py-2.justify-content-center
               .col-lg-6
                 h3 CRM
@@ -384,7 +387,7 @@
               
               
   
-          .tarjeta.back-tab.px-5.py-4(titulo="Proyecciones de ventas")
+          .tarjeta.back-tab.p-3.px-md-5.py-md-4(titulo="Proyecciones de ventas")
             .row.px-2.py-2.justify-content-center
               .col-lg-6
                 h3 Proyecciones de ventas
@@ -408,9 +411,9 @@
         img(src='@/assets/curso/images/tema2/img_17.png')
 
     .row.align-items-center.justify-content-center.mb-3
-      .col-lg-6(data-aos="fade-left") 
+      .col-lg-6.order-2.order-lg-1(data-aos="fade-left") 
         img.mb-3(src='@/assets/curso/images/tema2/img_18.png')
-      .col-lg-6(data-aos="fade-right") 
+      .col-lg-6.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-right") 
         p.mb-3 Los diferentes ejercicios prospectivos, generan sus propias herramientas de análisis y anticipación. Piense en un vendedor que conoce los horarios de su cliente, si se conoce el prospecto, es posible brindar una atención personalizada, acompañando a los futuros clientes en un recorrido que garantizara que tome una decisión de compra.
 
         p.mb-3 Una de las técnicas de prospección más utilizada es mantener la base de prospectos actualizada, donde los diferentes vendedores o miembros de la empresa identifican a los posibles compradores activos en el proceso de compra. Esto se logra por medio de la base de datos que previamente se alimentó al identificar la información utilizada para acercarse al cliente. Identificar momentos clave en el ejercicio de prospección es fundamental. Para esto se debe interactuar más con los clientes, generar confianza y sobre todo escuchar sus puntos de vista y sus demandas.
@@ -450,7 +453,7 @@
                     span Descargar
                     .row
                       .col-auto
-                        img.mx-1(src="@/assets/curso/images/tema1/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
+                        img.mx-1(src="@/assets/curso/images/tema1/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto;")
 
     Separador
 
@@ -461,22 +464,34 @@
 
     p.mb-5 Entre sus principales objetivos, se encuentran: 
 
-    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-up")
-      .col-12.col-md-3.mb-3.mb-md-0
-        div.bgr_1.p-5
-          .row.align-items-center.justify-content-center.mb-4  
-            img.img120(src="@/assets/curso/images/tema2/ico_18.png" alt='', style="width:200px; display:block; margin:auto 0 ;")
-          p.mb-4.text-center Garantizar que el producto o servicio llegue a su público objetivo.
-      .col-12.col-md-3.mb-3.mb-md-0
-        div.bgr_3.p-5
-          .row.align-items-center.justify-content-center.mb-4      
-            img.img120(src="@/assets/curso/images/tema2/ico_19.png" alt='', style="width:200px; display:block; margin:auto 0 ;")
-          p.mb-5.text-center Que sea usado de la forma correcta.
-      .col-12.col-md-3.mb-3.mb-md-0
-        div.bgr_1.p-5
-          .row.align-items-center.justify-content-center.mb-4         
-            img.img120(src="@/assets/curso/images/tema2/ico_20.png" alt='', style="width:200px; display:block; margin:auto 0 ;")
-          p.mb-5.text-center Que genere la satisfacción del cliente.
+    .row.mb-5.justify-content-center
+      .col-md-6.col-lg-4.col-xl-3.mb-4.mb-lg-0(data-aos="fade-up")
+        .tarjeta--boton.bgr_1.h-100.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/images/tema2/ico_18.png', alt='Texto que describa la imagen')
+    
+          p.text-center Garantizar que el producto o servicio llegue a su público objetivo.
+    
+      .col-md-6.col-lg-4.col-xl-3.mb-4.mb-lg-0(data-aos="fade-down")
+        .tarjeta--boton.bgr_3.h-100.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/images/tema2/ico_19.png', alt='Texto que describa la imagen')
+    
+          p.text-center Que sea usado de la forma correcta.
+      
+      .col-md-6.col-lg-4.col-xl-3.mb-4.mb-lg-0(data-aos="fade-up")
+        .tarjeta--boton.bgr_1.h-100.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/images/tema2/ico_20.png', alt='Texto que describa la imagen')
+    
+          p.text-center Que genere la satisfacción del cliente.
+          
     
     .row.align-items-center.justify-content-center.mb-3(data-aos="fade-up")
       .col-10.col-md-9.mb-3.mb-md-0
@@ -500,7 +515,7 @@
 
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-5(data-aos="fade-left") 
-        img.mb-3(src='@/assets/curso/images/tema2/img_20.png'  alt='', style="width:400px; display:block; margin:auto 0 ;")
+        img.mb-3(src='@/assets/curso/images/tema2/img_20.png'  alt='', style="width:400px; display:block; margin:auto;")
       .col-lg-5(data-aos="fade-right") 
         p.mb-3 El servicio al cliente hace referencia a las diferentes instancias a las cuales una organización o empresa debe hacer frente. Esto permitirá ampliar el tipo de servicio que se brinda a lo cual se le puede llamar retroalimentación de la información y en últimas cuentas permite ampliar las oportunidades de negocio. En este sentido, es primordial conocer los diferentes tipos de servicios que se pueden brindar, así como los canales por los cuales son ofrecidos.
 
