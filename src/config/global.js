@@ -163,7 +163,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA3_631104_DU.zip',
+        download: 'downloads/631104_CF3_DU.zip',
       },
       {
         icono: 'fas fa-download',
