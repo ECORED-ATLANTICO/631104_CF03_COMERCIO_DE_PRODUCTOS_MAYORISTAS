@@ -217,7 +217,7 @@
           figure
             img.mb-3(src='@/assets/curso/images/tema1/img_10.png', alt='Texto que describa la imagen')
         .col-md-6.mb-4.mb-md-0.align-items-center
-          p.mb-0 El segmento al que se apunta debe tener la capacidad de responder de manera económica a las inversiones que se realicen en él, en cuanto a estrategias de <i> marketing </i> y demás costos, para su correcto funcionamiento y sostenimiento de las empresas en el sector apuntado.
+          p.mb-0 El segmento al que se apunta debe tener la capacidad de responder de manera económica a las inversiones que se realicen en él, en cuanto a estrategias de <i>marketing</i> y demás costos, para su correcto funcionamiento y sostenimiento de las empresas en el sector apuntado.
         
       .row(titulo="Accesible").p-4
         .col-md-6

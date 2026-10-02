@@ -67,13 +67,13 @@
             :style="{'background-image': `url(${require('@/assets/curso/images/tema5/img_2.png')})`}"
           )
           .bloque-texto-g__texto.p-5.m-right(data-aos="fade-left")
-            p.mb-0 En <i> marketing </i> es fundamental un plan de trabajo, por lo que es esencial que cualquier empresa trabaje en uno, de esa forma los objetivos como compañía son medibles y evaluables. De igual forma, si se habla de empresas mayoristas, estos planes son su base para el crecimiento y cumplimiento de requerimientos a los cuales van encaminados.
+            p.mb-0 En <i>marketing</i> es fundamental un plan de trabajo, por lo que es esencial que cualquier empresa trabaje en uno, de esa forma los objetivos como compañía son medibles y evaluables. De igual forma, si se habla de empresas mayoristas, estos planes son su base para el crecimiento y cumplimiento de requerimientos a los cuales van encaminados.
 
     .bloque-texto-a.color-custom-7.p-md-0.mb-5.d-block.d-lg-none
       .row.m-4.align-items-center.justify-content-between
         .col-lg-9(data-aos="fade-right")
           .bloque-texto-a__texto.p-3.p-md-5.my-5
-            p En <i> marketing </i> es fundamental un plan de trabajo, por lo que es esencial que cualquier empresa trabaje en uno, de esa forma los objetivos como compañía son medibles y evaluables. De igual forma, si se habla de empresas mayoristas, estos planes son su base para el crecimiento y cumplimiento de requerimientos a los cuales van encaminados.
+            p En <i>marketing</i> es fundamental un plan de trabajo, por lo que es esencial que cualquier empresa trabaje en uno, de esa forma los objetivos como compañía son medibles y evaluables. De igual forma, si se habla de empresas mayoristas, estos planes son su base para el crecimiento y cumplimiento de requerimientos a los cuales van encaminados.
         .col-lg-3.mb-3.mb-lg-0(data-aos="fade-left")
           figure
             img(src='@/assets/curso/images/tema5/img_2.png' alt='', style="width:400px; display:block; margin:auto;")
@@ -154,7 +154,7 @@
 
           .row.align-items-center.justify-content-center
             .col-lg-7.mb-4.mb-lg-0
-              h3 Crear de un plan de <i> marketing </i>
+              h3 Crear de un plan de <i>marketing</i>
               p Este debe generar confianza y cercanía para que el plan de trabajo tenga garantías y se acerque al éxito, que sería medible en cuanto al cumplimiento de los objetivos.
             .col-md-8.col-lg-5
               figure

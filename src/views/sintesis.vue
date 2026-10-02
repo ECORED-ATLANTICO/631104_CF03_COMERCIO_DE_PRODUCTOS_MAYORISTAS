@@ -10,7 +10,7 @@
 
     .row.justify-content-center.p-5
       .col-lg-12
-        img(src='@/assets/curso/sintesis.svg')
+        img(src='@/assets/curso/sintesis.svg', alt='Los mercados y clasificación de los clientes parte de la necesidad de segmentar los mercados que las empresas mayoristas tienen, siendo así más efectivos y eficientes, esta necesidad no solo va en la segmentación, sino también en la definición de los clientes, sus necesidades, hasta el servicio que reciben, todo ello logrado a través de la recolección de la información del entorno donde se desarrollan las empresas y su procesamiento de datos, logrando así una clara zonificación, es decir un sector ideal, encaminado por un excelente plan de trabajo.')
 
    
       .col-auto.mt-5

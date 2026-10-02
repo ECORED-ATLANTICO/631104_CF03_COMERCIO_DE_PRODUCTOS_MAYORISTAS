@@ -387,8 +387,8 @@
 
         .row.align-items-center.justify-content-center.mb-5
           .col-lg-6.mb-3(data-aos="fade-left") 
-            img.mb-1(src='@/assets/curso/images/tema3/info.svg', alt='En el ejemplo de reporte de actividades se detalla la información del empleado, tareas completadas, tareas en curso y tareas para la próxima semana. ')
-            figcaption Nota. SENA, (2026).
+            img.mb-1(src='@/assets/curso/images/tema3/info.svg', alt='En el ejemplo de reporte de actividades se detalla la información del empleado, tareas completadas, tareas en curso y tareas para la próxima semana.')
+
           .col-lg-6(data-aos="fade-right") 
             p.mb-0 Como se puede evidenciar en la anterior figura, el reporte debe contener la información básica del empleado, para su correcta identificación y la medición de su rendimiento, por lo cual deben registrarse las tareas realizadas, las que están en progreso y las que pronto se realizarán, con el fin de:
 
@@ -620,7 +620,7 @@
           template(v-slot:imagen)
             figure
               img.mb-1(src='@/assets/curso/images/tema3/info_2.svg', alt='A continuación de la figura se explica cada componente de la estructura de la base de datos de clientes.')
-            figcaption Nota. SENA, (2026).
+
           .tarjeta.color-custom-info.p-3(x="2%" y="8%" numero="+")
             h5 Atributo o campo 
             p.mb-0 Corresponde a las categorías de los datos almacenados en la tabla; es decir, al atributo de la información que se está especificando, los atributos van en la parte que corresponde a las columnas de la tabla.  Por ejemplo: nombre, código del cliente, dirección y edad, etc.
@@ -649,7 +649,7 @@
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-6.mb-3(data-aos="fade-left") 
         img.mb-1(src='@/assets/curso/images/tema3/info_2.svg', alt='En la figura Base de datos de clientes contiene varios campos, como nombre, cédula, teléfono, dirección, compras por periodo, productos con mayor demanda por el cliente, registro de PQRS.')
-        figcaption Nota. SENA, (2026).
+
       .col-lg-6(data-aos="fade-right") 
         p.mb-3 En la anterior figura se habla de la tabla de clientes, esta contiene varios campos, como información general, compras, productos más solicitados por el cliente y su registro de PQRS; en dominio, se enseña su patrón de compra en los periodos de los años 2021 y 2022, siendo el límite esos dos años sin contar los anteriores y como clave candidata, se toma la cédula, dado que es un número único para cada persona. 
         p.mb-3 De esta manera, en el ejemplo anterior se podría evidenciar, gracias a esta base de datos, no solo el patrón de compra de un solo individuo, sino de todos los clientes a la vez para conocer cuáles son las fechas del año que representan los mayores ingresos de la empresa y así lograr hacerle frente, ya sea contratando asesores de ventas, o un mayor número de productos en inventario, además se puede conocer cuáles son los productos con mayor demanda, de acuerdo a gustos y preferencias o fechas del año.

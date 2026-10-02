@@ -154,9 +154,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 1.
           span Tipos de clientes
-        img.mb-2.d-none.d-sm-block(src='@/assets/curso/images/tema2/info.png', alt='Se detalla los tipos de clientes:')
-        img.mb-2.d-sm-none(src='@/assets/curso/images/tema2/info1.png', alt='Clientes internos y clientes externos; tienen el mismo objetivo común, pero características y enfoques diferentes.')
-        figcaption Nota. SENA, (2026).
+        img.mb-2.d-none.d-sm-block(src='@/assets/curso/images/tema2/info.png', alt='Se detalla los tipos de clientes: Clientes internos y clientes externos; tienen el mismo objetivo común, pero características y enfoques diferentes.')
+        img.mb-2.d-sm-none(src='@/assets/curso/images/tema2/info1.png', alt='Se detalla los tipos de clientes: Clientes internos y clientes externos; tienen el mismo objetivo común, pero características y enfoques diferentes.')
   
   
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-3

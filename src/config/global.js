@@ -163,7 +163,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/631104_CF3_DU.zip',
+        download: 'downloads/631104_CF3_CFA.zip',
       },
       {
         icono: 'fas fa-download',
@@ -180,70 +180,68 @@ export default {
   referencias: [
     {
       referencia:
-        'ArcGis resources. (s. f.). <em>Georreferenciación y sistemas de coordenadas.</em>',
+        'ArcGis resources. (s. f.). Georreferenciación y sistemas de coordenadas.',
       link:
         'https://resources.arcgis.com/es/help/getting-started/articles/026n0000000s000000.htm',
     },
     {
       referencia:
-        'Barrera, T., M. (2014). <em>Prospección comercial en mercados altamente competidos.</em>',
+        'Barrera, T., M. (2014). Prospección comercial en mercados altamente competidos.',
       link:
         'https://repository.unimilitar.edu.co/bitstream/handle/10654/12730/MARTHA%20RUTH%20BARRERA%20TORRES.pdf?sequence=1&isAllowed=y',
     },
     {
       referencia:
-        'Ferrell, O., y Hartline, M. (2018). <em>Estrategia de marketing.</em> Cengage Learning.',
+        'Ferrell, O., y Hartline, M. (2018). Estrategia de marketing. Cengage Learning.',
       link: '',
     },
     {
       referencia:
-        'Guadarrama, E., y Risales, E. (2015). <em>Marketing relacional: valor, satisfacción, lealtad y retención del cliente. Análisis y reflexión teórica.</em> Ciencia y Sociedad, 40(2), 307-340.',
+        'Guadarrama, E., y Risales, E. (2015). <em>Marketing</em> relacional: valor, satisfacción, lealtad y retención del cliente. Análisis y reflexión teórica. Ciencia y Sociedad, 40(2), 307-340.',
       link: 'https://www.redalyc.org/pdf/870/87041161004.pdf',
     },
     {
-      referencia:
-        'Maslow, A. (2000). <em>El hombre autorrealizado.</em> Kairós SA.',
+      referencia: 'Maslow, A. (2000). El hombre autorrealizado. Kairós SA.',
       link: '',
     },
     {
       referencia:
-        'Microsoft. (s. f.). <em>Más información sobre la validación de datos.</em>',
+        'Microsoft. (s. f.). Más información sobre la validación de datos.',
       link:
         'https://support.microsoft.com/es-es/office/m%C3%A1s-informaci%C3%B3n-sobre-la-validaci%C3%B3n-de-datos-f38dee73-9900-4ca6-9301-8a5f6e1f0c4c',
     },
     {
-      referencia:
-        'Mine, M. (2022). <em>La informatización de la sociedad.</em>',
+      referencia: 'Mine, M. (2022). La informatización de la sociedad.',
       link: '',
     },
     {
       referencia:
-        'Pastrán, A. (2021). <em>El comercio electrónico en Colombia crecerá 74% en los próximos cinco años.</em>',
+        'Pastrán, A. (2021). El comercio electrónico en Colombia crecerá 74% en los próximos cinco años.',
       link:
         'https://www.larepublica.co/internet-economy/el-comercio-electronico-en-colombia-crecera-74-en-los-proximos-cinco-anos-3234428',
     },
     {
       referencia:
-        'Rodríguez, A., I. (2007). <em>Estrategias y técnicas de comunicación. Una visión integrada en el marketing.</em> Editorial UOC.',
+        'Rodríguez, A., I. (2007). Estrategias y técnicas de comunicación. Una visión integrada en el <em>marketing.</em> Editorial UOC.',
       link: '',
     },
     {
       referencia:
-        'Silva, D. (2021). <em>¿Cómo satisfacer las necesidades de los clientes?</em>',
+        'Silva, D. (2021). ¿Cómo satisfacer las necesidades de los clientes?',
       link:
         'https://www.zendesk.com.mx/blog/necesidades-del-cliente/#:%7E:text=Las%20necesidades%20de%20los%20clientes%20se%20definen%20como%20los%20factores,tomar%20su%20decisi%C3%B3n%20de%20compra',
     },
     {
-      referencia: 'UCLA. (s. f.). <em>Qué es procesamiento de datos.</em>',
+      referencia: 'UCLA. (s. f.). Qué es procesamiento de datos.',
       link: '',
     },
     {
-      referencia: 'Universidad de Oviedo. (s. f.). <em>Tema 6-ficheros.</em>',
+      referencia: 'Universidad de Oviedo. (s. f.). Tema 6-ficheros.',
       link: '',
     },
     {
       referencia:
-        'Universidad del Cauca. (s. f.). <em>Procesamiento de la información.</em>',
+        'Universidad del Cauca. (s. f.). Procesamiento de la información.',
       link: '',
     },
   ],
@@ -319,7 +317,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturistico - Regional Santander',
         },
         {
@@ -392,12 +390,12 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -407,7 +405,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos digitales',
+          cargo: 'Validadora y vinculadora de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
@@ -415,7 +413,7 @@ export default {
   ],
   creditosAdicionales: {
     imagenes:
-      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
+      'Fotografías y vectores tomados de <a href="https://www.magnific.com/es" target="_blank">www.magnific.com/es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
     creativeCommons:
       'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
